@@ -19,5 +19,7 @@ public class PetMap {
         System.out.println(dog);
         System.out.println(petMap.containsKey("My dog"));
         System.out.println(petMap.containsValue(dog));
+        System.out.println(petMap.keySet());
+        System.out.println(petMap.values());
     }
 }
