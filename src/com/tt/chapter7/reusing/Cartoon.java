@@ -2,6 +2,7 @@ package com.tt.chapter7.reusing;
 
 /**
  * 创建导出类对象时，会自动的逐层向上调用基类的构造器
+ * 即使你没定义构造器，默认的构造器同样会逐层向上调用基类的构造器
  */
 class Art{
     Art(){
