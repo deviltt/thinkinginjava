@@ -11,9 +11,9 @@ public class PetCount {
             else
                 put(type, quantity + 1);
         }
-        public static void countPets(PetCreater petCreater){
+        public static void countPets(PetCreator petCreator){
             PetCounter petCounter = new PetCounter();
-            for(Pet pet : petCreater.createArray(20)){
+            for(Pet pet : petCreator.createArray(20)){
                 System.out.print(pet.getClass().getSimpleName() + " ");
                 if(pet instanceof Pet)
                     petCounter.count("pet");
