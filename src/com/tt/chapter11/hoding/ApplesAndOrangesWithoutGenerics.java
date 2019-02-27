@@ -17,8 +17,14 @@ public class ApplesAndOrangesWithoutGenerics {
         for(int i = 0; i < 3; i++)
             apples.add(new Apple());
         apples.add(new Orange());
-        for (int i = 0; i < apples.size(); i++) {
-            ((Apple)apples.get(i)).id();    //如果id方法声明为static的，则只能通过类名访问，而不能直接用类对象进行访问
+        try{
+            for (int i = 0; i < apples.size(); i++) {
+                ((Apple)apples.get(i)).id();    //如果id方法声明为static的，则只能通过类名访问，而不能直接用类对象进行访问
+            }
+        }catch (ClassCastException e){
+            System.out.println("类型转换错误");
+            e.printStackTrace();
         }
+
     }
 }
