@@ -3,7 +3,7 @@ package com.tt.chapter14.typeinfo.pets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ForNameCreator extends PetCreater {
+public class ForNameCreator extends PetCreator {
     private static List<Class<? extends Pet>> types = new ArrayList<>();
     private static String[] typeNames = {
             "com.tt.chapter14.typeinfo.pets.Mutt",
@@ -29,7 +29,7 @@ public class ForNameCreator extends PetCreater {
         loader();
     }
     @Override
-    public List<Class<? extends Pet>> getTypes() {
+    public List<Class<? extends Pet>> types() {
         return types;
     }
 }
