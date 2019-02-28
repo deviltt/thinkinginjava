@@ -1,4 +1,4 @@
-package com.tt.chapter14.typeinfo;
+package com.tt.chapter14.typeinfo.toys;
 
 interface HasBatteries{}
 interface Waterproof{}
@@ -25,7 +25,7 @@ public class ToyTest {
     public static void main(String[] args) {
         Class c = null;
         try {
-            c = Class.forName("com.tt.chapter14.typeinfo.FancyToy");
+            c = Class.forName("com.tt.chapter14.typeinfo.toys.FancyToy");
         }catch (ClassNotFoundException e){
             System.out.println("can't find FancyToy");
             System.exit(1);
