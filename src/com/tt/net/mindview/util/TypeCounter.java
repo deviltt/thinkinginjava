@@ -24,7 +24,7 @@ public class TypeCounter extends HashMap<Class<?>, Integer> {
         Class<?> superClass = type.getSuperclass();
         //递归的对导出类向上计数，直到基类为止
         if (superClass != null && baseType.isAssignableFrom(superClass))
-            countClass(type);
+            countClass(superClass);
     }
 
     @Override
