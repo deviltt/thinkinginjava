@@ -1,12 +1,12 @@
 package com.test;
 
 public class MoHuJvZhen {
-    public static double[] findMax(double temp[]){
+    private static double[] findMax(double temp[]){
         for(int i = 1; i < temp.length; i++)
             temp[0] = temp[0] < temp[i] ? temp[i] : temp[0];
         return temp;
     }
-    public static double[][] reverse(double R[][]){
+    private static double[][] reverse(double R[][]){
         double[] temp = new double[R.length];
         /**
          * rij取值过程：先将第i行的每个值与第j列对应的值进行比较取小者，
@@ -23,7 +23,7 @@ public class MoHuJvZhen {
         }
         return R;
     }
-    public static boolean isEqual(double t[][], double R[][]){
+    private static boolean isEqual(double t[][], double R[][]){
         for(int i = 0; i < R.length; i++)
             for(int j = 0; j < R[0].length; j++)
                 if(t[i][j] != R[i][j])
