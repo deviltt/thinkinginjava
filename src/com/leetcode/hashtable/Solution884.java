@@ -28,7 +28,8 @@ public class Solution884 {
                 list.add(s);
             }
         }
-        String[] strings = new String[list.size()];
-        return list.toArray(strings);
+//        String[] strings = new String[list.size()];
+//        return list.toArray(strings);
+        return list.toArray(new String[0]);
     }
 }
