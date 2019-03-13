@@ -1,7 +1,5 @@
 package com.leetcode.listnode;
 
-import com.leetcode.ListNode;
-
 /**
  * 输入: head = [4,5,1,9], node = 5
  * 输出: [4,1,9]

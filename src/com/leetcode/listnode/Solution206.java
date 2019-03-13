@@ -1,7 +1,5 @@
 package com.leetcode.listnode;
 
-import com.leetcode.ListNode;
-
 /**
  * 反转一个单链表。
  * 示例:
