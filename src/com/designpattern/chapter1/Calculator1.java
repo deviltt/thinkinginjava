@@ -36,7 +36,8 @@ public class Calculator1 {
                         }
                         break;
                     default:
-                        break;
+                        System.out.println("输入的符号有问题，请检查后重新输入！");
+                        continue;
                 }
                 break;  //跳出while循环
             } catch (Exception e) {
