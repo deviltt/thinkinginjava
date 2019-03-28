@@ -1,7 +1,7 @@
 package com.tt.chapter10.innerclasses;
 
 public class Parcel9 {
-    public Destination destination(String dest) {
+    public Destination destination(final String dest) {
         return new Destination() {
             private String label = dest;
 
