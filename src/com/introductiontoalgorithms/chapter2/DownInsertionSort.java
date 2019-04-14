@@ -1,4 +1,4 @@
-package com.introductiontoalgorithms;
+package com.introductiontoalgorithms.chapter2;
 
 /**
  * 简单插入排序(降序)
