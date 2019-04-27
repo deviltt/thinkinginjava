@@ -29,7 +29,7 @@ public class FilledList<T> {
         List<T> list = new ArrayList<T>();
         for (int i = 0; i < nElement; i++) {
             try {
-                list.add(type.newInstance());
+                list.add(type.newInstance());   //这边使用了newInstance();但是CountedInteger类中并没有显示的声明默认构造器，这是因为CountedInteger类中并没有其他的构造器，因此默认的就存在默认构造器
             } catch (InstantiationException e) {
                 e.printStackTrace();
             } catch (IllegalAccessException e) {
