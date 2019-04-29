@@ -1,5 +1,4 @@
 package com.leetcode;
-
 /**
  * 输入: [7,1,5,3,6,4]
  * 输出: 5
