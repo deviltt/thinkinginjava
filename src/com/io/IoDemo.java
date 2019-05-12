@@ -13,31 +13,51 @@ import java.io.IOException;
  * out.write(int b);写入一个byte到流，b的低8位
  * out.write(byte[] buf);将buf字节数组都写入到流
  * out.write(byte[] buf, int start, int size);字节数组buf从start位置开始写size长度的字节到输出流中
- *
+ * <p>
  * FileInputStream---->具体实现了在文件上读取数据
- *
  **/
 public class IoDemo {
     /**
      * 读取指定文件内容，按照16进制输出到控制台
      * 并且每输出10个byte换行
+     *
      * @param fileName
      */
     public static void printHex(String fileName) throws IOException {
         //把文件作为字节流进行读操作
-        FileInputStream in=new FileInputStream(fileName);
+        FileInputStream in = new FileInputStream(fileName);
         int b;
-        int i=1;//换行使用
-        while ((b=in.read())!=-1){
-            System.out.print(Integer.toHexString(b)+" ");
-            if (i++%10==0){
+        int i = 1;//换行使用
+        while ((b = in.read()) != -1) {
+            System.out.print(Integer.toHexString(b) + " ");
+            if (i++ % 10 == 0) {
                 System.out.println();
             }
         }
         in.close();
     }
 
+    /**
+     * 将输入流中的内容暂时存放在字节数组中
+     * @param fileName
+     * @throws IOException
+     */
+    private static void printHexByByteArray(String fileName) throws IOException {
+        FileInputStream in = new FileInputStream(fileName);
+        //开辟一个字节数组用存放从输入流中读取的数据
+        byte[] bytes = new byte[10 * 1024];
+        int bytesNums = in.read(bytes, 0, bytes.length);    //返回的是读到的字节的个数
+        int j = 1;
+        for (int i = 0; i < bytesNums; i++) {
+            if (bytes[i] <= 0xf)
+                System.out.print("0");
+            System.out.print(Integer.toHexString(bytes[i]) + " ");
+            if (j++ % 10 == 0)
+                System.out.println();
+        }
+    }
+
     public static void main(String[] args) throws IOException {
-        printHex("F:\\apache\\code\\7\\exists.php");
+        printHexByByteArray("F:\\apache\\code\\7\\exists.php");
     }
 }
