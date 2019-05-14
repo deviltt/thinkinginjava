@@ -25,9 +25,35 @@ public class CopyFile {
         out.close();
     }
 
+    /**
+     * 使用缓冲输入输出流的方法来拷贝文件
+     * @param srcFile
+     * @param descFile
+     */
+    private static void copyFileByBuffer(File srcFile, File descFile) throws IOException {
+        //判断是否为文件以及源文件是否存在
+        if (!srcFile.exists()) {
+            throw new IllegalArgumentException("源文件不存在");
+        }
+        if (!srcFile.isFile()) {
+            throw new IllegalArgumentException(srcFile + "不是文件");
+        }
+        //构造缓冲输入输出流
+        BufferedInputStream in=new BufferedInputStream(new FileInputStream(srcFile));
+        BufferedOutputStream out=new BufferedOutputStream(new FileOutputStream(descFile));
+        int num;
+        while ((num=in.read())!=-1){
+            out.write(num);
+            out.flush();//刷新缓冲区，否则写入不到文件中去
+        }
+        in.close();
+        out.close();
+    }
+
     public static void main(String[] args) throws IOException {
         File file1 = new File("F:\\apache\\code\\7\\exists.txt");
         File file2 = new File("F:\\apache\\code\\7\\exists1.txt");
-        copyFile(file1, file2);
+//        copyFile(file1, file2);
+        copyFileByBuffer(file1,file2);
     }
 }
