@@ -25,7 +25,7 @@ public class FullConstructors {
         try {
             f();
         } catch (MyException e) {
-            e.printStackTrace();    //如果没有重定向则默认从System.err输出
+            e.printStackTrace(System.out);    //如果没有重定向则默认从System.err输出
         }
         try {
             g();
