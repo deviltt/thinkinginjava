@@ -1,4 +1,4 @@
-package com.tt.chapter15.generics;
+package com.tt.net.mindview.util;
 
 /**
  * 元祖的概念：将一组对象即多个对象打包存储于元祖内
