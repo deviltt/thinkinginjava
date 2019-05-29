@@ -12,8 +12,8 @@ public class TupleTest {
         return new TwoTuple<>("hi", 47);
     }
 
-    private static TreeTuple<Amphibian, String, Integer> g(){
-        return new TreeTuple<>(new Amphibian(), "hi", 47);
+    private static ThreeTuple<Amphibian, String, Integer> g(){
+        return new ThreeTuple<>(new Amphibian(), "hi", 47);
     }
 
     private static FourTuple<Vehicle, Amphibian, String, Integer> h(){
