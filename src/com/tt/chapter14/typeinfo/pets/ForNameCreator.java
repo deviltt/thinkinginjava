@@ -28,6 +28,7 @@ public class ForNameCreator extends PetCreator {
             }
         }
     }
+    //当创建类对象时自动执行loader()方法，填充types集合
     static {
         loader();
     }
