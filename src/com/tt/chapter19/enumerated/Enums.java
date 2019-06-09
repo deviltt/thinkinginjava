@@ -9,7 +9,7 @@ public class Enums {
         return random(enumClass.getEnumConstants());
     }
 
-    private static <T> T random(T[] enumConstants) {
+    public static <T> T random(T[] enumConstants) {
         return enumConstants[random.nextInt(enumConstants.length)];
     }
 }
