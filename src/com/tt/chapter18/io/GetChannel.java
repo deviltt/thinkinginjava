@@ -18,9 +18,9 @@ public class GetChannel {
         fileChannel.close();
 
         fileChannel=new FileInputStream("data.txt").getChannel();
-        ByteBuffer byteBuffer=ByteBuffer.allocate(BSIZE);
-        fileChannel.read(byteBuffer);
-        byteBuffer.flip();
+        ByteBuffer byteBuffer=ByteBuffer.allocate(BSIZE);   //ByteBuffer是唯一直接与通道交互的缓冲器
+        fileChannel.read(byteBuffer);   //通道读取的内容存放打byteBuffer中去
+        byteBuffer.flip();  //从缓冲器中读取内容时就必须调用flip，让其做好被别人读的准备
         while (byteBuffer.hasRemaining())
             System.out.print((char)byteBuffer.get());
     }
