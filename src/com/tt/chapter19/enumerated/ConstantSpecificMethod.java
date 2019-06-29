@@ -1,4 +1,4 @@
-package com.tt.chapter19.enumerated.menu;
+package com.tt.chapter19.enumerated;
 
 import java.text.DateFormat;
 import java.util.Date;
