@@ -4,6 +4,7 @@ import java.util.Iterator;
 
 /**
  * 包装一封邮件，使用enum实例来记录这个邮件有多少状态
+ * 随机生成一封邮件，每个邮件的enum实例中的状态也是随机的
  */
 class Mail {
     enum GeneralDelivery {YES, NO1, NO2, NO3, NO4, NO5}         //揽收邮件
@@ -27,16 +28,16 @@ class Mail {
 
     @Override
     public String toString() {
-        return "Mail " + id+"\n";
+        return "Mail " + id + "\n";
     }
 
     public String details() {
         return toString() +
-                "General Delivery: " + generalDelivery + "\n"+
-                "Address Scannability: " + scannability + "\n"+
-                "Address Readability: " + readability + "\n"+
-                "Address Address: " + address + "\n"+
-                "Return address: " + returnAddress +"\n";
+                "General Delivery: " + generalDelivery + "\n" +
+                "Address Scannability: " + scannability + "\n" +
+                "Address Readability: " + readability + "\n" +
+                "Address Address: " + address + "\n" +
+                "Return address: " + returnAddress + "\n";
     }
 
     public static Mail randomMail() {
@@ -128,29 +129,31 @@ public class PostOffice {
                 }
             }
         },
-        RETURN_TO_SENDER{
-            boolean handle(Mail m){
-                switch (m.returnAddress){
+        RETURN_TO_SENDER {
+            boolean handle(Mail m) {
+                switch (m.returnAddress) {
                     case MISSING:
                         return false;
                     default:
-                        System.out.println("Returning "+m+" to sender");
+                        System.out.println("Returning " + m + " to sender");
                         return true;
                 }
             }
         };
+
         abstract boolean handle(Mail m);
     }
-    static void handle(Mail m){
-        for(MailHandler handler:MailHandler.values()){
+
+    static void handle(Mail m) {
+        for (MailHandler handler : MailHandler.values()) {
             if (handler.handle(m))
                 return;
         }
-        System.out.println(m+" is a dead letter");
+        System.out.println(m + " is a dead letter");
     }
 
     public static void main(String[] args) {
-        for(Mail mail:Mail.generator(10)){
+        for (Mail mail : Mail.generator(10)) {
             System.out.println(mail.details()); //显示邮件的详细信息，可发送性、可读性、发送接收地址是否正确
             handle(mail);
             System.out.println("*******");
