@@ -16,6 +16,7 @@ public class Solution1029 {
         Arrays.sort(costs, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
+                //降序排列
                 return (o1[1] - o1[0]) - (o2[1] - o2[0]);
             }
         });
