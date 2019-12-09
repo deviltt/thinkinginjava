@@ -9,7 +9,7 @@ import java.util.List;
 public class SimpleIteration {
     public static void main(String[] args) {
         List<Pet> pets = Pets.arrayList(12);
-        Iterator<Pet> iterator = pets.iterator();
+        Iterator<Pet> iterator = pets.iterator();   //调用iterator()方法，将返回一个Iterator，其将准备好返回序列第一个元素
         while (iterator.hasNext()){
             Pet p = iterator.next();
             System.out.println(p.id() + ":" + p + " ");

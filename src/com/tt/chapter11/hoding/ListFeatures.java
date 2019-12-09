@@ -11,22 +11,22 @@ public class ListFeatures {
         List<Pet> pets = Pets.arrayList(7);
         System.out.println("1: " + pets);
         Hamster h = new Hamster();
-        pets.add(h);
+        pets.add(h);    //添加元素 .add()
         System.out.println("2: " + pets);
-        System.out.println("3: " + pets.contains(h));   //List集合中是否包含某元素
-        pets.remove(h);
-        Pet p = pets.get(2);
-        System.out.println("4: " + p + " " + pets.indexOf(p));
+        System.out.println("3: " + pets.contains(h));   //List集合中是否包含某元素 .contains()
+        pets.remove(h);                 //移除某个元素 .remove()
+        Pet p = pets.get(2);    //获取某个索引位置的元素 .get()
+        System.out.println("4: " + p + " " + pets.indexOf(p));  //元素在List中的索引 .indexOf()
         Pet cymric = new Cymric();
         System.out.println("5: " + pets.indexOf(cymric));
         System.out.println("6: " + pets.remove(cymric));
         System.out.println("7: " + pets.remove(p)); //remove();方法删除失败成功都会有boolean返回值
         System.out.println("8: " + pets);
-        pets.add(3, new Mouse());
+        pets.add(3, new Mouse());   //在某个位置插入 .add(index, elem)
         System.out.println("9: " + pets);   //从0开始的第三位
         List<Pet> sub = pets.subList(1, 4); //subList();方法左闭右开[1, 4)
         System.out.println("subList: " + sub);
-        System.out.println("10: " + pets.containsAll(sub));
+        System.out.println("10: " + pets.containsAll(sub)); //某个list是否是 子串
 //        Collections.sort(sub);
         System.out.println("sorted subList: " + sub);
         System.out.println("11: " + pets.containsAll(sub));
@@ -48,7 +48,7 @@ public class ListFeatures {
         copy.addAll(2, sub);    //在索引为2的位置添加集合，其余元素后移
         System.out.println("17: " + copy);
         System.out.println("18: " + pets.isEmpty());
-        pets.clear();
+        pets.clear();   //清空list .clear
         System.out.println("19: " + pets);
         System.out.println("20: " + pets.isEmpty());
         pets.addAll(Pets.arrayList(4));
