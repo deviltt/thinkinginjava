@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/BigTrouser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/Finery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/TShirts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/TestDecorationPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/dp/Solution1105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/PrintingContainers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/PrintingContainers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/SimpleIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/SimpleIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter15/generics/Holder3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter15/generics/Holder3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/innerClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/innerClass/Outer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,13 +19,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="278">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -69,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tt/chapter13/IntegerMatch.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter13/strings/IntegerMatch.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter13/strings/Splitting.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter13/strings/Replacing.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/Solution890.java" />
@@ -120,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIteration.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIterator.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java" />
+        <option value="$PROJECT_DIR$/src/com/test/innerClass/Outer2.java" />
+        <option value="$PROJECT_DIR$/src/com/test/innerClass/Outer.java" />
       </list>
     </option>
   </component>
@@ -138,36 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="tt" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="tt" type="1f31426a:PackageElementNode" />
-              <item name="chapter11.hoding" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +159,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+              <item name="innerClass" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -223,22 +220,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListFeatures">
+  <component name="RunManager" selected="Application.Outer">
     <configuration name="LinkedListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.LinkedListFeatures" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.ListFeatures" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
@@ -276,12 +260,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiteralPetCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter14.typeinfo.pets.LiteralPetCreator" />
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.innerClass.Outer" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tt.chapter14.typeinfo.pets.*" />
+          <option name="PATTERN" value="com.test.innerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Outer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.innerClass.Outer2" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.innerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="Application.Outer2" />
         <item itemvalue="Application.LinkedListFeatures" />
         <item itemvalue="Application.ListIterator" />
         <item itemvalue="Application.ListIteration" />
-        <item itemvalue="Application.ListFeatures" />
-        <item itemvalue="Application.LiteralPetCreator" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +326,10 @@
       <workItem from="1566778862132" duration="7373000" />
       <workItem from="1566821207173" duration="6320000" />
       <workItem from="1567326555657" duration="4750000" />
-      <workItem from="1575892528448" duration="6099000" />
+      <workItem from="1575892528448" duration="6175000" />
+      <workItem from="1575900352256" duration="138000" />
+      <workItem from="1575937770807" duration="121000" />
+      <workItem from="1576580725529" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="使用正则表达式匹配数字字符串时候正确">
       <created>1562228539003</created>
@@ -531,12 +531,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96098000" />
+    <option name="totallyTimeSpent" value="98455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25134048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,15 +546,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.296034" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.39235127" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30311614" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -639,27 +640,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单工厂模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution123.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution921.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution861.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solutuion188.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1071,12 +1051,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/MoHuJvZhen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="352">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
