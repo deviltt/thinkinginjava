@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode2/string/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Solution383.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Solution383.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Solution917.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Solution917.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/string/Solution1160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/string/Solution1160.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +39,129 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.designpattern.creational.simplefactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.designpattern.creational.simplefactory</OriginalElement>
+              <nodes>
+                <node x="86.68749999999997" y="202.0">com.designpattern.creational.simplefactory.Test</node>
+                <node x="349.0" y="101.0">com.designpattern.creational.simplefactory.JavaVideo</node>
+                <node x="259.12499999999994" y="0.0">com.designpattern.creational.simplefactory.Video</node>
+                <node x="0.0" y="101.0">com.designpattern.creational.simplefactory.VideoFactory</node>
+                <node x="194.99999999999997" y="101.0">com.designpattern.creational.simplefactory.PythonVideo</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.Video">
+                  <point x="35.0" y="-25.5" />
+                  <point x="174.18749999999997" y="177.0" />
+                  <point x="477.5" y="177.0" />
+                  <point x="477.5" y="71.0" />
+                  <point x="352.75" y="71.0" />
+                  <point x="40.12500000000001" y="25.5" />
+                </edge>
+                <edge source="com.designpattern.creational.simplefactory.PythonVideo" target="com.designpattern.creational.simplefactory.Video">
+                  <point x="0.0" y="-25.5" />
+                  <point x="262.0" y="81.0" />
+                  <point x="299.24999999999994" y="81.0" />
+                  <point x="-13.375" y="25.5" />
+                </edge>
+                <edge source="com.designpattern.creational.simplefactory.VideoFactory" target="com.designpattern.creational.simplefactory.Video">
+                  <point x="0.0" y="-25.5" />
+                  <point x="87.5" y="71.0" />
+                  <point x="272.49999999999994" y="71.0" />
+                  <point x="-40.125" y="25.5" />
+                </edge>
+                <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.VideoFactory">
+                  <point x="0.0" y="-25.5" />
+                  <point x="139.18749999999997" y="177.0" />
+                  <point x="131.25" y="177.0" />
+                  <point x="43.75" y="25.5" />
+                </edge>
+                <edge source="com.designpattern.creational.simplefactory.JavaVideo" target="com.designpattern.creational.simplefactory.Video">
+                  <point x="0.0" y="-25.5" />
+                  <point x="408.0" y="81.0" />
+                  <point x="325.99999999999994" y="81.0" />
+                  <point x="13.375" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-8.83333333333323" y="138.5" />
+              <SelectedNodes>
+                <node>com.designpattern.creational.simplefactory.Test</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -83,11 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solutuion638.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution944.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution1046.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution1108.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution1021.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/Solution983.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/Solution646.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter19/enumerated/myUnderstanding/Operation.java" />
@@ -134,6 +247,11 @@
         <option value="$PROJECT_DIR$/src/com/leetcode2/字符串/Solution3.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode2/string/Solution3.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java" />
       </list>
     </option>
   </component>
@@ -163,6 +281,27 @@
               <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
               <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="designpattern" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="designpattern" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="designpattern" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="simplefactory" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
@@ -237,22 +376,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Outer">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="LinkedListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.LinkedListFeatures" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.ListIteration" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
@@ -303,13 +429,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.simplefactory.Test" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.creational.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Outer" />
         <item itemvalue="Application.Outer2" />
         <item itemvalue="Application.LinkedListFeatures" />
         <item itemvalue="Application.ListIterator" />
-        <item itemvalue="Application.ListIteration" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +487,7 @@
       <workItem from="1575937770807" duration="121000" />
       <workItem from="1576580725529" duration="2730000" />
       <workItem from="1576638387027" duration="136000" />
-      <workItem from="1576911409421" duration="4732000" />
+      <workItem from="1576911409421" duration="8307000" />
     </task>
     <task id="LOCAL-00001" summary="使用正则表达式匹配数字字符串时候正确">
       <created>1562228539003</created>
@@ -550,13 +689,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104031000" />
+    <option name="totallyTimeSpent" value="107606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2580429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -565,7 +704,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,6 +725,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.39235127" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30311614" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -659,51 +829,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单工厂模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution188ed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution309.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution714.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/dp/Solution1105.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution1160.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/greedy/Solution1029.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution1071.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1096,8 +1221,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpattern.creational.simplefactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpattern.creational.simplefactory</OriginalElement>
+          <nodes>
+            <node x="86.68749999999997" y="202.0">com.designpattern.creational.simplefactory.Test</node>
+            <node x="349.0" y="101.0">com.designpattern.creational.simplefactory.JavaVideo</node>
+            <node x="259.12499999999994" y="0.0">com.designpattern.creational.simplefactory.Video</node>
+            <node x="0.0" y="101.0">com.designpattern.creational.simplefactory.VideoFactory</node>
+            <node x="194.99999999999997" y="101.0">com.designpattern.creational.simplefactory.PythonVideo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.Video">
+              <point x="35.0" y="-25.5" />
+              <point x="174.18749999999997" y="177.0" />
+              <point x="477.5" y="177.0" />
+              <point x="477.5" y="71.0" />
+              <point x="352.75" y="71.0" />
+              <point x="40.12500000000001" y="25.5" />
+            </edge>
+            <edge source="com.designpattern.creational.simplefactory.PythonVideo" target="com.designpattern.creational.simplefactory.Video">
+              <point x="0.0" y="-25.5" />
+              <point x="262.0" y="81.0" />
+              <point x="299.24999999999994" y="81.0" />
+              <point x="-13.375" y="25.5" />
+            </edge>
+            <edge source="com.designpattern.creational.simplefactory.VideoFactory" target="com.designpattern.creational.simplefactory.Video">
+              <point x="0.0" y="-25.5" />
+              <point x="87.5" y="71.0" />
+              <point x="272.49999999999994" y="71.0" />
+              <point x="-40.125" y="25.5" />
+            </edge>
+            <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.VideoFactory">
+              <point x="0.0" y="-25.5" />
+              <point x="139.18749999999997" y="177.0" />
+              <point x="131.25" y="177.0" />
+              <point x="43.75" y="25.5" />
+            </edge>
+            <edge source="com.designpattern.creational.simplefactory.JavaVideo" target="com.designpattern.creational.simplefactory.Video">
+              <point x="0.0" y="-25.5" />
+              <point x="408.0" y="81.0" />
+              <point x="325.99999999999994" y="81.0" />
+              <point x="13.375" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-8.83333333333323" y="138.5" />
+          <SelectedNodes>
+            <node>com.designpattern.creational.simplefactory.Test</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
