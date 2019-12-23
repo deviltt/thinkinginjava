@@ -4,12 +4,15 @@ package com.tt.chapter12.exceptions;
  * 创建了自定义的异常，必须继承已有的异常类
  */
 class SimpleException extends Exception {
+    SimpleException(String msg) {
+        super(msg);
+    }
 }
 
 public class InheritingException {
     public void f() throws SimpleException {
         System.out.println("throw SimpleException form f()");
-        throw new SimpleException();
+        throw new SimpleException("Mabi");
     }
 
     public static void main(String[] args) {
@@ -20,7 +23,7 @@ public class InheritingException {
         try {
             inheritingException.f();
         } catch (SimpleException e) {
-            System.out.println("catch it!!!");
+            System.out.println(e.getMessage() + " catch it!!!");
         }
     }
 }
