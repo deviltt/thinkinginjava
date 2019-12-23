@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/VideoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/designpattern/creational/simplefactory/VideoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/designpattern/creational/simplefactory/VideoFactory.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,145 +31,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="108">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.designpattern.creational.simplefactory">
+        <entry file="uml://JAVA/com.designpattern.creational.abstractfactory">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>com.designpattern.creational.simplefactory</OriginalElement>
+              <OriginalElement>com.designpattern.creational.abstractfactory</OriginalElement>
               <nodes>
-                <node x="86.68749999999997" y="202.0">com.designpattern.creational.simplefactory.Test</node>
-                <node x="349.0" y="101.0">com.designpattern.creational.simplefactory.JavaVideo</node>
-                <node x="259.12499999999994" y="0.0">com.designpattern.creational.simplefactory.Video</node>
-                <node x="0.0" y="101.0">com.designpattern.creational.simplefactory.VideoFactory</node>
-                <node x="194.99999999999997" y="101.0">com.designpattern.creational.simplefactory.PythonVideo</node>
+                <node x="165.5" y="88.0">com.designpattern.creational.abstractfactory.JavaVideo</node>
+                <node x="4.75" y="0.0">com.designpattern.creational.abstractfactory.Article</node>
+                <node x="185.5033333333333" y="0.0">com.designpattern.creational.abstractfactory.Video</node>
+                <node x="303.5" y="88.0">com.designpattern.creational.abstractfactory.CourseFactory</node>
+                <node x="10.5" y="88.0">com.designpattern.creational.abstractfactory.JavaArticle</node>
+                <node x="240.01333333333332" y="244.0">com.designpattern.creational.abstractfactory.Test</node>
+                <node x="57.09166666666664" y="166.0">com.designpattern.creational.abstractfactory.JavaCourseFactory</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.Video">
-                  <point x="35.0" y="-25.5" />
-                  <point x="174.18749999999997" y="177.0" />
-                  <point x="477.5" y="177.0" />
-                  <point x="477.5" y="71.0" />
-                  <point x="352.75" y="71.0" />
-                  <point x="40.12500000000001" y="25.5" />
+                <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Article">
+                  <point x="-37.5" y="-14.0" />
+                  <point x="341.0" y="58.0" />
+                  <point x="89.75" y="58.0" />
+                  <point x="34.0" y="14.0" />
                 </edge>
-                <edge source="com.designpattern.creational.simplefactory.PythonVideo" target="com.designpattern.creational.simplefactory.Video">
-                  <point x="0.0" y="-25.5" />
-                  <point x="262.0" y="81.0" />
-                  <point x="299.24999999999994" y="81.0" />
-                  <point x="-13.375" y="25.5" />
+                <edge source="com.designpattern.creational.abstractfactory.JavaArticle" target="com.designpattern.creational.abstractfactory.Article">
+                  <point x="0.0" y="-14.0" />
+                  <point x="77.5" y="68.0" />
+                  <point x="55.75" y="68.0" />
+                  <point x="0.0" y="14.0" />
                 </edge>
-                <edge source="com.designpattern.creational.simplefactory.VideoFactory" target="com.designpattern.creational.simplefactory.Video">
-                  <point x="0.0" y="-25.5" />
-                  <point x="87.5" y="71.0" />
-                  <point x="272.49999999999994" y="71.0" />
-                  <point x="-40.125" y="25.5" />
+                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Article">
+                  <point x="-72.79999999999998" y="-14.0" />
+                  <point x="75.29166666666666" y="146.0" />
+                  <point x="0.0" y="146.0" />
+                  <point x="0.0" y="68.0" />
+                  <point x="21.75" y="68.0" />
+                  <point x="-34.0" y="14.0" />
                 </edge>
-                <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.VideoFactory">
-                  <point x="0.0" y="-25.5" />
-                  <point x="139.18749999999997" y="177.0" />
-                  <point x="131.25" y="177.0" />
-                  <point x="43.75" y="25.5" />
+                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaVideo">
+                  <point x="36.400000000000006" y="-14.0" />
+                  <point x="184.49166666666665" y="136.0" />
+                  <point x="224.5" y="136.0" />
+                  <point x="0.0" y="14.0" />
                 </edge>
-                <edge source="com.designpattern.creational.simplefactory.JavaVideo" target="com.designpattern.creational.simplefactory.Video">
-                  <point x="0.0" y="-25.5" />
-                  <point x="408.0" y="81.0" />
-                  <point x="325.99999999999994" y="81.0" />
-                  <point x="13.375" y="25.5" />
+                <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Video">
+                  <point x="37.5" y="-14.0" />
+                  <point x="416.0" y="48.0" />
+                  <point x="257.16999999999996" y="48.0" />
+                  <point x="28.666666666666686" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.JavaCourseFactory">
+                  <point x="-19.5" y="-14.0" />
+                  <point x="259.5133333333333" y="219.0" />
+                  <point x="148.09166666666664" y="219.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaArticle">
+                  <point x="-36.400000000000006" y="-14.0" />
+                  <point x="111.69166666666663" y="136.0" />
+                  <point x="77.5" y="136.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.CourseFactory">
+                  <point x="19.5" y="-14.0" />
+                  <point x="298.5133333333333" y="219.0" />
+                  <point x="416.0" y="219.0" />
+                  <point x="37.5" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.CourseFactory">
+                  <point x="72.80000000000004" y="-14.0" />
+                  <point x="220.89166666666668" y="146.0" />
+                  <point x="341.0" y="146.0" />
+                  <point x="-37.5" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.JavaVideo" target="com.designpattern.creational.abstractfactory.Video">
+                  <point x="-2.8421709430404007E-14" y="-14.0" />
+                  <point x="224.49999999999997" y="68.0" />
+                  <point x="228.5033333333333" y="68.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Video">
+                  <point x="2.8421709430404007E-14" y="-14.0" />
+                  <point x="148.09166666666667" y="146.0" />
+                  <point x="155.0" y="146.0" />
+                  <point x="155.0" y="68.0" />
+                  <point x="199.83666666666662" y="68.0" />
+                  <point x="-28.666666666666686" y="14.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-8.83333333333323" y="138.5" />
-              <SelectedNodes>
-                <node>com.designpattern.creational.simplefactory.Test</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-195.5" y="177.0" />
+              <SelectedNodes />
+              <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
             </state>
@@ -167,10 +147,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaCourseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,17 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution983.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution646.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter19/enumerated/myUnderstanding/Operation.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter19/enumerated/myUnderstanding/OperationTest.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter19/enumerated/myUnderstanding/StrategyEnumPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter21/concurrency/ThreadLocalVariableHolder.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/singleton/NewInstanceWithEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter15/generics/Holder3.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/singleton/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution861.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution921.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution714.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution122.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution123.java" />
@@ -250,12 +225,23 @@
         <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java" />
         <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Video.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Article.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaArticle.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="790" />
     <option name="y" value="30" />
     <option name="width" value="1115" />
@@ -270,6 +256,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -301,6 +316,22 @@
               <item name="com" type="1f31426a:PackageElementNode" />
               <item name="designpattern" type="1f31426a:PackageElementNode" />
               <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="abstractfactory" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="designpattern" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="factorymethod" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="designpattern" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
               <item name="simplefactory" type="1f31426a:PackageElementNode" />
             </path>
             <path>
@@ -321,47 +352,21 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springLearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.designpattern.decoratorpattern.服装装饰者" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitProject\thinkinginjava\src\com\designpattern\creational\factorymethod" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,33 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="LinkedListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.LinkedListFeatures" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.ListIterator" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.innerClass.Outer" />
       <module name="thinkinginjava" />
@@ -429,6 +408,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.factorymethod.Test" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.creational.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.abstractfactory.Test" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.simplefactory.Test" />
       <module name="thinkinginjava" />
@@ -444,11 +449,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Outer" />
         <item itemvalue="Application.Outer2" />
-        <item itemvalue="Application.LinkedListFeatures" />
-        <item itemvalue="Application.ListIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +492,8 @@
       <workItem from="1575937770807" duration="121000" />
       <workItem from="1576580725529" duration="2730000" />
       <workItem from="1576638387027" duration="136000" />
-      <workItem from="1576911409421" duration="8307000" />
+      <workItem from="1576911409421" duration="15334000" />
+      <workItem from="1577063495864" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="使用正则表达式匹配数字字符串时候正确">
       <created>1562228539003</created>
@@ -689,13 +695,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107606000" />
+    <option name="totallyTimeSpent" value="116650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2580429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -704,7 +710,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -829,164 +835,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="简单工厂模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution1071.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution925.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.designpattern.decoratorpattern.BigTrouser">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.designpattern.decoratorpattern.BigTrouser</OriginalElement>
-          <nodes>
-            <node x="" y="">com.designpattern.decoratorpattern.TShirts</node>
-            <node x="" y="">com.designpattern.decoratorpattern.TestDecorationPattern</node>
-            <node x="" y="">com.designpattern.decoratorpattern.Person</node>
-            <node x="" y="">com.designpattern.decoratorpattern.Finery</node>
-            <node x="" y="">com.designpattern.decoratorpattern.BigTrouser</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="129.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/TShirts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/BigTrouser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/TestDecorationPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/Finery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/BenzCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Mul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Div.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Sub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1226,17 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.designpattern.creational.simplefactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1284,7 +1121,7 @@
               <point x="13.375" y="25.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-8.83333333333323" y="138.5" />
+          <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-9.0" y="139.0" />
           <SelectedNodes>
             <node>com.designpattern.creational.simplefactory.Test</node>
           </SelectedNodes>
@@ -1297,17 +1134,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,10 +1151,330 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpattern.creational.factorymethod">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpattern.creational.factorymethod</OriginalElement>
+          <nodes>
+            <node x="82.5185185185185" y="234.0">com.designpattern.creational.factorymethod.Test</node>
+            <node x="29.75" y="156.0">com.designpattern.creational.factorymethod.JavaVideoFactory</node>
+            <node x="305.737037037037" y="78.0">com.designpattern.creational.factorymethod.PythonVideo</node>
+            <node x="143.737037037037" y="78.0">com.designpattern.creational.factorymethod.VideoFactory</node>
+            <node x="0.0" y="78.0">com.designpattern.creational.factorymethod.JavaVideo</node>
+            <node x="172.0833333333333" y="0.0">com.designpattern.creational.factorymethod.Video</node>
+            <node x="264.50370370370376" y="156.0">com.designpattern.creational.factorymethod.PythonVideoFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.designpattern.creational.factorymethod.VideoFactory" target="com.designpattern.creational.factorymethod.Video">
+              <point x="-2.8421709430404007E-14" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.PythonVideoFactory" target="com.designpattern.creational.factorymethod.Video">
+              <point x="63.333333333333314" y="-14.0" />
+              <point x="422.837037037037" y="131.0" />
+              <point x="450.237037037037" y="131.0" />
+              <point x="450.237037037037" y="48.0" />
+              <point x="249.4833333333333" y="48.0" />
+              <point x="34.400000000000006" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.PythonVideo" target="com.designpattern.creational.factorymethod.Video">
+              <point x="0.0" y="-14.0" />
+              <point x="372.737037037037" y="58.0" />
+              <point x="232.2833333333333" y="58.0" />
+              <point x="17.200000000000017" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.JavaVideoFactory" target="com.designpattern.creational.factorymethod.VideoFactory">
+              <point x="58.0" y="-14.0" />
+              <point x="174.75" y="131.0" />
+              <point x="179.237037037037" y="131.0" />
+              <point x="-35.5" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.JavaVideoFactory" target="com.designpattern.creational.factorymethod.JavaVideo">
+              <point x="-58.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.Test" target="com.designpattern.creational.factorymethod.JavaVideoFactory">
+              <point x="-19.5" y="-14.0" />
+              <point x="102.0185185185185" y="209.0" />
+              <point x="73.25" y="209.0" />
+              <point x="-43.5" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.PythonVideoFactory" target="com.designpattern.creational.factorymethod.PythonVideo">
+              <point x="0.0" y="-14.0" />
+              <point x="359.50370370370376" y="131.0" />
+              <point x="372.737037037037" y="131.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.PythonVideoFactory" target="com.designpattern.creational.factorymethod.VideoFactory">
+              <point x="-63.33333333333337" y="-14.0" />
+              <point x="296.1703703703704" y="131.0" />
+              <point x="250.237037037037" y="131.0" />
+              <point x="35.5" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.JavaVideo" target="com.designpattern.creational.factorymethod.Video">
+              <point x="0.0" y="-14.0" />
+              <point x="59.0" y="48.0" />
+              <point x="180.68333333333328" y="48.0" />
+              <point x="-34.400000000000006" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.factorymethod.JavaVideoFactory" target="com.designpattern.creational.factorymethod.Video">
+              <point x="0.0" y="-14.0" />
+              <point x="116.75" y="131.0" />
+              <point x="128.5" y="131.0" />
+              <point x="128.5" y="58.0" />
+              <point x="197.8833333333333" y="58.0" />
+              <point x="-17.19999999999999" y="14.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-152.0" y="177.0" />
+          <SelectedNodes>
+            <node>com.designpattern.creational.factorymethod.PythonVideoFactory</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpattern.creational.abstractfactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpattern.creational.abstractfactory</OriginalElement>
+          <nodes>
+            <node x="165.5" y="88.0">com.designpattern.creational.abstractfactory.JavaVideo</node>
+            <node x="4.75" y="0.0">com.designpattern.creational.abstractfactory.Article</node>
+            <node x="185.5033333333333" y="0.0">com.designpattern.creational.abstractfactory.Video</node>
+            <node x="303.5" y="88.0">com.designpattern.creational.abstractfactory.CourseFactory</node>
+            <node x="10.5" y="88.0">com.designpattern.creational.abstractfactory.JavaArticle</node>
+            <node x="240.01333333333332" y="244.0">com.designpattern.creational.abstractfactory.Test</node>
+            <node x="57.09166666666664" y="166.0">com.designpattern.creational.abstractfactory.JavaCourseFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Article">
+              <point x="-37.5" y="-14.0" />
+              <point x="341.0" y="58.0" />
+              <point x="89.75" y="58.0" />
+              <point x="34.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaArticle" target="com.designpattern.creational.abstractfactory.Article">
+              <point x="0.0" y="-14.0" />
+              <point x="77.5" y="68.0" />
+              <point x="55.75" y="68.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Article">
+              <point x="-72.79999999999998" y="-14.0" />
+              <point x="75.29166666666666" y="146.0" />
+              <point x="0.0" y="146.0" />
+              <point x="0.0" y="68.0" />
+              <point x="21.75" y="68.0" />
+              <point x="-34.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaVideo">
+              <point x="36.400000000000006" y="-14.0" />
+              <point x="184.49166666666665" y="136.0" />
+              <point x="224.5" y="136.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Video">
+              <point x="37.5" y="-14.0" />
+              <point x="416.0" y="48.0" />
+              <point x="257.16999999999996" y="48.0" />
+              <point x="28.666666666666686" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.JavaCourseFactory">
+              <point x="-19.5" y="-14.0" />
+              <point x="259.5133333333333" y="219.0" />
+              <point x="148.09166666666664" y="219.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaArticle">
+              <point x="-36.400000000000006" y="-14.0" />
+              <point x="111.69166666666663" y="136.0" />
+              <point x="77.5" y="136.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.CourseFactory">
+              <point x="19.5" y="-14.0" />
+              <point x="298.5133333333333" y="219.0" />
+              <point x="416.0" y="219.0" />
+              <point x="37.5" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.CourseFactory">
+              <point x="72.80000000000004" y="-14.0" />
+              <point x="220.89166666666668" y="146.0" />
+              <point x="341.0" y="146.0" />
+              <point x="-37.5" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaVideo" target="com.designpattern.creational.abstractfactory.Video">
+              <point x="-2.8421709430404007E-14" y="-14.0" />
+              <point x="224.49999999999997" y="68.0" />
+              <point x="228.5033333333333" y="68.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Video">
+              <point x="2.8421709430404007E-14" y="-14.0" />
+              <point x="148.09166666666667" y="146.0" />
+              <point x="155.0" y="146.0" />
+              <point x="155.0" y="68.0" />
+              <point x="199.83666666666662" y="68.0" />
+              <point x="-28.666666666666686" y="14.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-195.5" y="177.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
