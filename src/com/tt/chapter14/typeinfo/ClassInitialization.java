@@ -11,7 +11,7 @@ class Initable{
 }
 
 class Initable2{
-    static int staticNonFinal = 147;
+    static int staticNonFinal = 147;    //并不是常数静态域，因此使用这个变量时会执行初始化，运行静态代码块的内容
     static {
         System.out.println("Initializing Initable2");
     }

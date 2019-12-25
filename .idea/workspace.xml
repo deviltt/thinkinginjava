@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/AlwaysFinally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/LostMessage.java" afterDir="false" />
+    <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="二分查找">
+      <change afterPath="$PROJECT_DIR$/src/com/interviewpreparing/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/Solution890.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solutuion763.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter12/exceptions/InheritingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter12/exceptions/InheritingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter12/exceptions/SimpleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter12/exceptions/SimpleException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/InheritingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/InheritingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/designpattern/ObserverPattern/wechat/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/designpattern/ObserverPattern/wechat/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solution977ed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solution977ed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution374.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution374.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution704.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution704.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/ClassInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/ClassInitialization.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,205 +26,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballFans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/InheritingException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/FullConstructors.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/Throwable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="642" column="23" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
-                <element signature="e#10280#10281#0" expanded="true" />
-                <element signature="e#10314#10315#0" expanded="true" />
-                <element signature="e#15711#15712#0" expanded="true" />
-                <element signature="e#15747#15748#0" expanded="true" />
-                <element signature="e#26222#26223#0" expanded="true" />
-                <element signature="e#26265#26266#0" expanded="true" />
-                <element signature="e#26470#26471#0" expanded="true" />
-                <element signature="e#26528#26529#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/AlwaysFinally.java">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution374.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution69.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/LostMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interviewpreparing/VolatileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.designpattern.creational.abstractfactory">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.designpattern.creational.abstractfactory</OriginalElement>
-              <nodes>
-                <node x="165.5" y="88.0">com.designpattern.creational.abstractfactory.JavaVideo</node>
-                <node x="4.75" y="0.0">com.designpattern.creational.abstractfactory.Article</node>
-                <node x="185.5033333333333" y="0.0">com.designpattern.creational.abstractfactory.Video</node>
-                <node x="303.5" y="88.0">com.designpattern.creational.abstractfactory.CourseFactory</node>
-                <node x="10.5" y="88.0">com.designpattern.creational.abstractfactory.JavaArticle</node>
-                <node x="240.01333333333332" y="244.0">com.designpattern.creational.abstractfactory.Test</node>
-                <node x="57.09166666666664" y="166.0">com.designpattern.creational.abstractfactory.JavaCourseFactory</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Article">
-                  <point x="-37.5" y="-14.0" />
-                  <point x="341.0" y="58.0" />
-                  <point x="89.75" y="58.0" />
-                  <point x="34.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaArticle" target="com.designpattern.creational.abstractfactory.Article">
-                  <point x="0.0" y="-14.0" />
-                  <point x="77.5" y="68.0" />
-                  <point x="55.75" y="68.0" />
-                  <point x="0.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Article">
-                  <point x="-72.79999999999998" y="-14.0" />
-                  <point x="75.29166666666666" y="146.0" />
-                  <point x="0.0" y="146.0" />
-                  <point x="0.0" y="68.0" />
-                  <point x="21.75" y="68.0" />
-                  <point x="-34.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaVideo">
-                  <point x="36.400000000000006" y="-14.0" />
-                  <point x="184.49166666666665" y="136.0" />
-                  <point x="224.5" y="136.0" />
-                  <point x="0.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.CourseFactory" target="com.designpattern.creational.abstractfactory.Video">
-                  <point x="37.5" y="-14.0" />
-                  <point x="416.0" y="48.0" />
-                  <point x="257.16999999999996" y="48.0" />
-                  <point x="28.666666666666686" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.JavaCourseFactory">
-                  <point x="-19.5" y="-14.0" />
-                  <point x="259.5133333333333" y="219.0" />
-                  <point x="148.09166666666664" y="219.0" />
-                  <point x="0.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.JavaArticle">
-                  <point x="-36.400000000000006" y="-14.0" />
-                  <point x="111.69166666666663" y="136.0" />
-                  <point x="77.5" y="136.0" />
-                  <point x="0.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.Test" target="com.designpattern.creational.abstractfactory.CourseFactory">
-                  <point x="19.5" y="-14.0" />
-                  <point x="298.5133333333333" y="219.0" />
-                  <point x="416.0" y="219.0" />
-                  <point x="37.5" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.CourseFactory">
-                  <point x="72.80000000000004" y="-14.0" />
-                  <point x="220.89166666666668" y="146.0" />
-                  <point x="341.0" y="146.0" />
-                  <point x="-37.5" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaVideo" target="com.designpattern.creational.abstractfactory.Video">
-                  <point x="-2.8421709430404007E-14" y="-14.0" />
-                  <point x="224.49999999999997" y="68.0" />
-                  <point x="228.5033333333333" y="68.0" />
-                  <point x="0.0" y="14.0" />
-                </edge>
-                <edge source="com.designpattern.creational.abstractfactory.JavaCourseFactory" target="com.designpattern.creational.abstractfactory.Video">
-                  <point x="2.8421709430404007E-14" y="-14.0" />
-                  <point x="148.09166666666667" y="146.0" />
-                  <point x="155.0" y="146.0" />
-                  <point x="155.0" y="68.0" />
-                  <point x="199.83666666666662" y="68.0" />
-                  <point x="-28.666666666666686" y="14.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-195.5" y="177.0" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -242,9 +109,12 @@
       <find>iterator</find>
       <find>detailMessage</find>
       <find>printstacktrace</find>
+      <find>changed</find>
+      <find>bascketballFansList</find>
     </findStrings>
     <replaceStrings>
       <replace>it</replace>
+      <replace>basketballFansList</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -253,31 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solutuion188.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution188ed.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution309.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/greedy/Solution1029.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/dp/Solution1105.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution1071.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution1160.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution925.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/Finery.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/TShirts.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/BigTrouser.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/TestDecorationPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/decoratorpattern/服装装饰者/Finery.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Operation.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Add.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Sub.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Mul.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/Div.java" />
-        <option value="$PROJECT_DIR$/src/com/designpattern/factorypattern/easyfactory/EasyFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/PrintingContainers.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/SimpleIteration.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIteration.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIterator.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java" />
         <option value="$PROJECT_DIR$/src/com/test/innerClass/Outer2.java" />
@@ -304,6 +149,31 @@
         <option value="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/InheritingException.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/AlwaysFinally.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter12/exceptions/LostMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution890.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/string/Solution1221.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solution977ed.java" />
+        <option value="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/ClassInitialization.java" />
+        <option value="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/GenericToyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/toys/ToyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/toys/GenericToyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode2/Solution56.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solutuion763.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode2/Solution238.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BascketBallFans.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BascketballFans.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BascketBallManagement.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BascketballManagement.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballFans.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballManagement.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution704.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution374.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution69.java" />
+        <option value="$PROJECT_DIR$/src/com/interviewpreparing/VolatileTest.java" />
       </list>
     </option>
   </component>
@@ -322,6 +192,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
+              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="interviewpreparing" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,44 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="tt" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="tt" type="1f31426a:PackageElementNode" />
-              <item name="chapter12" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="58d84e3e:PackageViewProjectNode" />
-              <item name="thinkinginjava" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="tt" type="1f31426a:PackageElementNode" />
-              <item name="chapter12" type="1f31426a:PackageElementNode" />
-              <item name="exceptions" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,39 +273,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LostMessage">
-    <configuration name="FullConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter12.exceptions.FullConstructors" />
+  <component name="RunManager" selected="Application.VolatileTest">
+    <configuration name="ClassInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tt.chapter14.typeinfo.ClassInitialization" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tt.chapter12.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InheritingException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter12.exceptions.InheritingException" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter12.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter12.exceptions.LostMessage" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter12.exceptions.*" />
+          <option name="PATTERN" value="com.tt.chapter14.typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,11 +288,11 @@
       </method>
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.factorymethod.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.ObserverPattern.shop.Test" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpattern.creational.factorymethod.*" />
+          <option name="PATTERN" value="com.designpattern.ObserverPattern.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,12 +300,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpattern.creational.abstractfactory.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.ObserverPattern.wechat.Test" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpattern.creational.abstractfactory.*" />
+          <option name="PATTERN" value="com.designpattern.ObserverPattern.wechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.ObserverPattern.basketball.Test" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.ObserverPattern.basketball.BasketballFans" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewpreparing.VolatileTest" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewpreparing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LostMessage" />
-        <item itemvalue="Application.FullConstructors" />
-        <item itemvalue="Application.InheritingException" />
+        <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ClassInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +385,11 @@
       <workItem from="1576580725529" duration="2730000" />
       <workItem from="1576638387027" duration="136000" />
       <workItem from="1576911409421" duration="15334000" />
-      <workItem from="1577063495864" duration="9520000" />
+      <workItem from="1577063495864" duration="17825000" />
+      <workItem from="1577152417715" duration="1493000" />
+      <workItem from="1577154150341" duration="24000" />
+      <workItem from="1577154197605" duration="10298000" />
+      <workItem from="1577234364647" duration="15926000" />
     </task>
     <task id="LOCAL-00001" summary="使用正则表达式匹配数字字符串时候正确">
       <created>1562228539003</created>
@@ -728,17 +587,75 @@
       <option name="project" value="LOCAL" />
       <updated>1567350856942</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1221. 分割平衡字符串">
+      <created>1577088300494</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1577088300494</updated>
+    </task>
+    <task id="LOCAL-00030" summary="56. 合并区间">
+      <created>1577169712158</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577169712158</updated>
+    </task>
+    <task id="LOCAL-00031" summary="238. 除自身以外数组的乘积">
+      <created>1577172682577</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1577172682577</updated>
+    </task>
+    <task id="LOCAL-00032" summary="观察者模式">
+      <created>1577241061867</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1577241061867</updated>
+    </task>
+    <task id="LOCAL-00033" summary="704. 二分查找">
+      <created>1577242821351</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577242821351</updated>
+    </task>
+    <task id="LOCAL-00034" summary="374. 猜数字大小">
+      <created>1577249988503</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577249988503</updated>
+    </task>
+    <task id="LOCAL-00035" summary="69. x 的平方根">
+      <created>1577250005883</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1577250005884</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124153000" />
+    <option name="totallyTimeSpent" value="160199000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -747,16 +664,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.39235127" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.23654391" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30311614" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" weight="0.28895184" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.296034" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -769,7 +686,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -778,16 +695,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28045326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.39235127" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.23654391" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30311614" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" weight="0.28895184" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.296034" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -844,13 +761,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="模式匹配" />
-    <MESSAGE value="dfs+剪枝完成待购清单的最低消费" />
-    <MESSAGE value="删除某一列，使得二维数组的每一列都是非降序排列" />
-    <MESSAGE value="最后一块石头的重量" />
-    <MESSAGE value="IP 地址无效化" />
-    <MESSAGE value="删除最外层的括号" />
-    <MESSAGE value="最长数对链" />
     <MESSAGE value="枚举类中的抽象方法必须被它的枚举常量所覆盖" />
     <MESSAGE value="将自身枚举的方法委托给策略枚举实现" />
     <MESSAGE value="懒加载模式创建内部枚举方式实现单例模式" />
@@ -869,386 +779,16 @@
     <MESSAGE value="1160. 拼写单词" />
     <MESSAGE value="925. 长按键入" />
     <MESSAGE value="简单工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单工厂模式" />
+    <MESSAGE value="1221. 分割平衡字符串" />
+    <MESSAGE value="56. 合并区间" />
+    <MESSAGE value="238. 除自身以外数组的乘积" />
+    <MESSAGE value="观察者模式" />
+    <MESSAGE value="704. 二分查找" />
+    <MESSAGE value="374. 猜数字大小" />
+    <MESSAGE value="69. x 的平方根" />
+    <option name="LAST_COMMIT_MESSAGE" value="69. x 的平方根" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/pets/LiteralPetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/pets/PetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/pets/Pets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="327" column="77" lean-forward="true" selection-start-line="327" selection-start-column="77" selection-end-line="327" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="5401" column="22" lean-forward="true" selection-start-line="5401" selection-start-column="22" selection-end-line="5401" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-            <element signature="e#7284#7285#0" expanded="true" />
-            <element signature="e#7312#7313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="315" column="19" selection-start-line="315" selection-start-column="19" selection-end-line="315" selection-end-column="19" />
-          <folding>
-            <element signature="e#8767#8768#0" expanded="true" />
-            <element signature="e#8824#8825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/SimpleIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/pets/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/jre/lib/rt.jar!/java/util/Collections.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <folding>
-            <element signature="e#0#131495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="652" column="35" lean-forward="true" selection-start-line="652" selection-start-column="35" selection-end-line="652" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/MoHuJvZhen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/LinkedListFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/innerClass/Outer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/string/Solution3ed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.designpattern.creational.simplefactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.designpattern.creational.simplefactory</OriginalElement>
-          <nodes>
-            <node x="86.68749999999997" y="202.0">com.designpattern.creational.simplefactory.Test</node>
-            <node x="349.0" y="101.0">com.designpattern.creational.simplefactory.JavaVideo</node>
-            <node x="259.12499999999994" y="0.0">com.designpattern.creational.simplefactory.Video</node>
-            <node x="0.0" y="101.0">com.designpattern.creational.simplefactory.VideoFactory</node>
-            <node x="194.99999999999997" y="101.0">com.designpattern.creational.simplefactory.PythonVideo</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.Video">
-              <point x="35.0" y="-25.5" />
-              <point x="174.18749999999997" y="177.0" />
-              <point x="477.5" y="177.0" />
-              <point x="477.5" y="71.0" />
-              <point x="352.75" y="71.0" />
-              <point x="40.12500000000001" y="25.5" />
-            </edge>
-            <edge source="com.designpattern.creational.simplefactory.PythonVideo" target="com.designpattern.creational.simplefactory.Video">
-              <point x="0.0" y="-25.5" />
-              <point x="262.0" y="81.0" />
-              <point x="299.24999999999994" y="81.0" />
-              <point x="-13.375" y="25.5" />
-            </edge>
-            <edge source="com.designpattern.creational.simplefactory.VideoFactory" target="com.designpattern.creational.simplefactory.Video">
-              <point x="0.0" y="-25.5" />
-              <point x="87.5" y="71.0" />
-              <point x="272.49999999999994" y="71.0" />
-              <point x="-40.125" y="25.5" />
-            </edge>
-            <edge source="com.designpattern.creational.simplefactory.Test" target="com.designpattern.creational.simplefactory.VideoFactory">
-              <point x="0.0" y="-25.5" />
-              <point x="139.18749999999997" y="177.0" />
-              <point x="131.25" y="177.0" />
-              <point x="43.75" y="25.5" />
-            </edge>
-            <edge source="com.designpattern.creational.simplefactory.JavaVideo" target="com.designpattern.creational.simplefactory.Video">
-              <point x="0.0" y="-25.5" />
-              <point x="408.0" y="81.0" />
-              <point x="325.99999999999994" y="81.0" />
-              <point x="13.375" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.5000000000000004" x="-9.0" y="139.0" />
-          <SelectedNodes>
-            <node>com.designpattern.creational.simplefactory.Test</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/PythonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/simplefactory/VideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/PythonVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/JavaVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/VideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/factorymethod/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/JavaArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1454,7 +994,7 @@
               <point x="-28.666666666666686" y="14.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-195.5" y="177.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-195.0" y="177.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1465,14 +1005,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/designpattern/creational/abstractfactory/CourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/InheritingException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
@@ -1489,14 +1029,14 @@
     </entry>
     <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="378">
           <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="10926">
           <caret line="642" column="23" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="23" />
           <folding>
             <element signature="e#10280#10281#0" expanded="true" />
@@ -1514,20 +1054,438 @@
     <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/AlwaysFinally.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tt/chapter12/exceptions/LostMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="486">
+          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
           <folding>
             <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution1221.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/string/Solution925.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solution977.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/ClassInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/FilledList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/GenericToyTest.java" />
+    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="492" column="24" selection-start-line="492" selection-start-column="18" selection-end-line="492" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/toys/ToyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/toys/GenericToyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/ClassCast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solutuion763.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/Solution56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/doublepointer/Solution977ed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode2/Solution238.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpattern.ObserverPattern.wechat">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpattern.ObserverPattern.wechat</OriginalElement>
+          <nodes>
+            <node x="79.14166666666667" y="0.0">com.designpattern.ObserverPattern.wechat.Observer</node>
+            <node x="0.0" y="101.0">com.designpattern.ObserverPattern.wechat.Observed</node>
+            <node x="141.10833333333335" y="326.0">com.designpattern.ObserverPattern.wechat.Test</node>
+            <node x="33.29166666666666" y="202.0">com.designpattern.ObserverPattern.wechat.WechatServer</node>
+            <node x="142.0" y="78.0">com.designpattern.ObserverPattern.wechat.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.designpattern.ObserverPattern.wechat.Test" target="com.designpattern.ObserverPattern.wechat.Observer">
+              <point x="29.25" y="-14.0" />
+              <point x="209.35833333333335" y="306.0" />
+              <point x="288.5" y="306.0" />
+              <point x="288.5" y="48.0" />
+              <point x="178.14166666666665" y="48.0" />
+              <point x="44.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.Test" target="com.designpattern.ObserverPattern.wechat.User">
+              <point x="9.75" y="-14.0" />
+              <point x="189.85833333333335" y="296.0" />
+              <point x="210.0" y="296.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.Observed" target="com.designpattern.ObserverPattern.wechat.Observer">
+              <point x="0.0" y="-14.0" />
+              <point x="55.0" y="58.0" />
+              <point x="90.14166666666667" y="58.0" />
+              <point x="-44.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.Test" target="com.designpattern.ObserverPattern.wechat.WechatServer">
+              <point x="-29.25" y="-14.0" />
+              <point x="150.85833333333335" y="306.0" />
+              <point x="72.54166666666666" y="306.0" />
+              <point x="-39.25" y="37.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.WechatServer" target="com.designpattern.ObserverPattern.wechat.Observer">
+              <point x="0.0" y="-37.0" />
+              <point x="111.79166666666666" y="177.0" />
+              <point x="120.5" y="177.0" />
+              <point x="120.5" y="58.0" />
+              <point x="112.14166666666667" y="58.0" />
+              <point x="-22.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.WechatServer" target="com.designpattern.ObserverPattern.wechat.Observed">
+              <point x="-52.33333333333334" y="-37.0" />
+              <point x="59.458333333333314" y="177.0" />
+              <point x="55.0" y="177.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.designpattern.ObserverPattern.wechat.User" target="com.designpattern.ObserverPattern.wechat.Observer">
+              <point x="0.0" y="-37.0" />
+              <point x="210.0" y="58.0" />
+              <point x="156.14166666666665" y="58.0" />
+              <point x="22.0" y="14.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.4" x="-82.37229437229433" y="148.42857142857144" />
+          <SelectedNodes>
+            <node>com.designpattern.ObserverPattern.wechat.Test</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/shop/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/shop/TaoBaoObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/shop/JingDongObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/shop/ProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="193" column="59" selection-start-line="193" selection-start-column="59" selection-end-line="193" selection-end-column="59" />
+          <folding>
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2952#2953#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#5696#5697#0" expanded="true" />
+            <element signature="e#5735#5736#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+            <element signature="e#6483#6484#0" expanded="true" />
+            <element signature="e#6514#6515#0" expanded="true" />
+            <element signature="e#6978#6979#0" expanded="true" />
+            <element signature="e#7008#7009#0" expanded="true" />
+            <element signature="e#7210#7211#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/Observed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/wechat/WechatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballFans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpattern.ObserverPattern.basketball">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpattern.ObserverPattern.basketball</OriginalElement>
+          <nodes>
+            <node x="" y="">com.designpattern.ObserverPattern.basketball.BasketballFans</node>
+            <node x="" y="">com.designpattern.ObserverPattern.basketball.Observer</node>
+            <node x="" y="">com.designpattern.ObserverPattern.basketball.BasketballManagement</node>
+            <node x="" y="">com.designpattern.ObserverPattern.basketball.Subject</node>
+            <node x="" y="">com.designpattern.ObserverPattern.basketball.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="140.5" y="128.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/ObserverPattern/basketball/BasketballManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developmentEnvironment/java/java8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="1511" column="38" lean-forward="true" selection-start-line="1511" selection-start-column="38" selection-end-line="1511" selection-end-column="38" />
+          <folding>
+            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="e#6171#6172#0" expanded="true" />
+            <element signature="e#7967#7968#0" expanded="true" />
+            <element signature="e#8013#8014#0" expanded="true" />
+            <element signature="e#10902#10903#0" expanded="true" />
+            <element signature="e#10948#10949#0" expanded="true" />
+            <element signature="e#32532#32533#0" expanded="true" />
+            <element signature="e#32566#32567#0" expanded="true" />
+            <element signature="e#35486#35487#0" expanded="true" />
+            <element signature="e#35532#35533#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35852#35853#0" expanded="true" />
+            <element signature="e#46394#46395#0" expanded="true" />
+            <element signature="e#46458#46459#0" expanded="true" />
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution374.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcodespecialtopic/binarysearch/Solution69.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interviewpreparing/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

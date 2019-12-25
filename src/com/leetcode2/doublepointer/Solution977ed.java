@@ -12,12 +12,14 @@ public class Solution977ed {
     public static int[] sortedSquares(int[] A) {
         int i = 0, N = A.length;
         // j<N 使用了短路规则，为了符合边界条件
+        //找到负数与正数的分界点位置
         while (i < N && A[i] < 0) {
             ++i;
         }
         int j = i - 1;
         int[] result = new int[N];
         int t = 0;
+        //按照大小依次插入到result数组中
         while (j >= 0 && i < N) {
             if (A[i] * A[i] < A[j] * A[j]) {
                 result[t++] = A[i] * A[i];
@@ -27,6 +29,7 @@ public class Solution977ed {
                 --j;
             }
         }
+        //把剩余的添加到result数组中
         while (j >= 0) {
             result[t++] = A[j] * A[j];
             --j;

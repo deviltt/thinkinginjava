@@ -12,9 +12,11 @@ public class Test {
         wechatServer.registerObserver(observer2);
         wechatServer.registerObserver(observer3);
 
+        //修改推送消息
         wechatServer.setInformation("PHP是最好的语言");
         System.out.println();
         wechatServer.removeObserver(observer2);
+        //修改推送消息
         wechatServer.setInformation("Java是最好的语言");
     }
 }
