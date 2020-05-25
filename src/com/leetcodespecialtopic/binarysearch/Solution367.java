@@ -6,12 +6,12 @@ package com.leetcodespecialtopic.binarysearch;
  * 说明：不要使用任何内置的库函数，如  sqrt。
  * 输入：16
  * 输出：True
- *
+ * <p>
  * 注:不能使用乘积判断，会产生溢出
  */
 public class Solution367 {
     public boolean isPerfectSquare(int num) {
-        int left = 1, right = num, mid = 1;
+        int left = 1, right = num, mid;
         while (left <= right) {
             mid = left + (right - left) / 2;
 //            int mul=mid*mid;    //不可以用乘法，会溢出，类似上面求mid的方法
