@@ -23,7 +23,7 @@ public class Solution10 {
 
         if (p.length() >= 2 && p.charAt(1) == '*') {
             //用到了或运算的 短路 实现回溯
-            //如果有*号，首先忽略，然后进行递归，在递归的过程中返回了false，说明直接忽略*号是不行的
+            //如果有*号，首先忽略，然后进行递归，在递归的过程中返回了false，说明直接忽略*号是不行的，进行回溯，执行||后面的语句
             //然后再执行或运算后面的操作，前提是第一个字符和*号前面的字符匹配，如果不匹配则返回false
             return isMatch(s, p.substring(2)) || (first_match && isMatch(s.substring(1), p));
         } else {

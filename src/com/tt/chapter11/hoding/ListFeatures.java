@@ -55,7 +55,9 @@ public class ListFeatures {
         System.out.println("21: " + pets);
         Object[] objects = pets.toArray();  //toArray();方法将集合变为数组
         System.out.println("22: " + objects[3]);
+        //这里传递了目标类型的数据，但是数组大小开辟为0,
         Pet[] pa = pets.toArray(new Pet[0]);    //根据参数数组的类型构造数组
+        //对于参数数组太小的情况，toArray()方法将创建一个具有合适尺寸的数组
         System.out.println("23: " + pa[3].id());
     }
 }

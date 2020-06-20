@@ -16,6 +16,11 @@ public class CrossContainerIteration {
         display(pets2.iterator());
     }
 
+    /**
+     * 如果不用iterator那么需要定义三个display方法，参数类型分别
+     * 为ArrayList<Pet>、LinkedList<Pet>、HashSet<Pet>
+     * @param iterator iterator统一了容器的类型
+     */
     private static void display(Iterator<Pet> iterator) {
         while (iterator.hasNext()){
             Pet p = iterator.next();
