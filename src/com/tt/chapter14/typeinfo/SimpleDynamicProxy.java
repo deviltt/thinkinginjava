@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * java动态代理必须实现InvocationHandler接口
+ */
 class DynamicProxyHandler implements InvocationHandler{
     private Object proxied;
 
@@ -19,7 +22,7 @@ class DynamicProxyHandler implements InvocationHandler{
 //                System.out.println(" " + arg);
 //        }
         if (method.getName().equals("doSomething")){
-            System.out.println("doSomething Interesting");
+            System.out.println("doSomething() 执行前要进行校验");
         }
         return method.invoke(proxied, args);
     }
@@ -34,6 +37,7 @@ public class SimpleDynamicProxy {
         //对这个realObject对象进行动态代理
         RealObject realObject = new RealObject();
         consumer(realObject);
+        //对realObject进行代理，产生代理对象proxy
         Interface proxy = (Interface) Proxy.newProxyInstance(Interface.class.getClassLoader()
         , new Class[]{Interface.class}, new DynamicProxyHandler(realObject));
         consumer(proxy);
