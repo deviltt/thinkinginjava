@@ -5,7 +5,7 @@ package com.剑指offer;
  * f(i)=f(i-1)+f(i-2)   (i-2>=0 && x>=10 && x<=25)
  * p相当于 i-2，q相当于 i-1， r就是遍历到i时的结果
  */
-public class Question46 {
+public class Offer46 {
     public int translateNum(int num) {
         String s = String.valueOf(num);
         int p = 0, q = 0, r = 1;

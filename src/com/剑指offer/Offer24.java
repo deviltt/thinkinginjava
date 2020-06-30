@@ -1,7 +1,7 @@
 package com.剑指offer;
 
 /**
- * 剑指 Offer 24. 反转链表
+ * 剑指 Offer32_I 24. 反转链表
  */
 public class Offer24 {
     private ListNode dummyHead = new ListNode(-1);

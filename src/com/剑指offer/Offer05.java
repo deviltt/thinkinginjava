@@ -1,6 +1,6 @@
 package com.剑指offer;
 
-public class Question05 {
+public class Offer05 {
     public static String replaceSpace(String s) {
         char[] arr = s.toCharArray();
         StringBuilder stringBuilder = new StringBuilder();

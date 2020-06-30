@@ -3,22 +3,12 @@ package com.剑指offer;
 import java.util.HashMap;
 import java.util.Map;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
 /**
  * 这题的关键是要确定先序遍历和中序遍历的区间范围
  * 先序遍历的第一个节点就是根节点
  */
 
-public class Question07 {
+public class Offer07 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || preorder.length == 0) {
             return null;

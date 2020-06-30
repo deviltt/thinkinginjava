@@ -2,7 +2,7 @@ package com.剑指offer;
 
 import java.util.Stack;
 
-public class Question06 {
+public class Offer06 {
     public int[] reversePrint(ListNode head) {
         Stack<Integer> stack = new Stack<>();
         while (head != null) {

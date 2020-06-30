@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 剑指 Offer 22. 链表中倒数第k个节点
+ * 剑指 Offer32_I 22. 链表中倒数第k个节点
  * 用list来保存遍历的元素
  */
 public class Offer22 {

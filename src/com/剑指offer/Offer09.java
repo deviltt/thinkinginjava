@@ -2,10 +2,10 @@ package com.剑指offer;
 
 import java.util.Stack;
 
-public class Question09 {
+public class Offer09 {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
-    public Question09() {
+    public Offer09() {
         stack1=new Stack<>();
         stack2=new Stack<>();
     }

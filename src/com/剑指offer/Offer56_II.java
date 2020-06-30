@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Solution56_II {
+public class Offer56_II {
     public static int singleNumber(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 

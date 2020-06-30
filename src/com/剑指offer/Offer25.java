@@ -1,7 +1,7 @@
 package com.剑指offer;
 
 /**
- * 剑指 Offer 25. 合并两个排序的链表
+ * 剑指 Offer32_I 25. 合并两个排序的链表
  */
 public class Offer25 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

@@ -1,14 +1,5 @@
 package com.剑指offer;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
-
 public class Offer18 {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode dummyHead = new ListNode(-1);

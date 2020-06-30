@@ -1,7 +1,7 @@
 package com.剑指offer;
 
 /**
- * 剑指 Offer 55 - I. 二叉树的深度
+ * 剑指 Offer32_I 55 - I. 二叉树的深度
  * 先序遍历
  */
 public class Offer55_I {

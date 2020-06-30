@@ -1,7 +1,7 @@
 package com.剑指offer;
 
 /**
- * 剑指 Offer 22. 链表中倒数第k个节点
+ * 剑指 Offer32_I 22. 链表中倒数第k个节点
  * 双指针法
  */
 public class Offer22ed {

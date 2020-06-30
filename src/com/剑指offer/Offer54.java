@@ -1,12 +1,12 @@
 package com.剑指offer;
 
 /**
- * 剑指 Offer 54. 二叉搜索树的第k大节点
+ * 剑指 Offer32_I 54. 二叉搜索树的第k大节点
  * 亮点：
  * 反过来的中序遍历，这样元素就是逆序输出
  * 正向的中序遍历，元素是顺序输出
  */
-public class Solution54 {
+public class Offer54 {
     private int result, tempK;
 
     public int kthLargest(TreeNode root, int k) {

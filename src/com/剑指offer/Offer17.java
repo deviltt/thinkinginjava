@@ -1,6 +1,6 @@
 package com.剑指offer;
 
-public class Solution17 {
+public class Offer17 {
     public int[] printNumbers(int n) {
         double length = Math.pow(10, n) - 1;
         int[] result = new int[(int) length];
