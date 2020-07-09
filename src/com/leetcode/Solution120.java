@@ -19,12 +19,18 @@ public class Solution120 {
         for (int i = 0; i < triangle.size(); i++) {
             for (int j = 0; j < i + 1; j++) {
                 if (i>=1){
-                    if (j==0)
+                    if (j==0){
+                        //最左边的元素
                         triangle.get(i).set(j, triangle.get(i-1).get(0)+triangle.get(i).get(0));
-                    else if (j==i)
+                    }
+                    else if (j==i){
+                        //最右边的元素
                         triangle.get(i).set(j, triangle.get(i-1).get(j-1)+triangle.get(i).get(j));
-                    else
+                    }
+                    else{
+                        //中间的元素
                         triangle.get(i).set(j, triangle.get(i).get(j)+ Math.min(triangle.get(i-1).get(j-1), triangle.get(i-1).get(j)));
+                    }
                 }
             }
         }

@@ -1,10 +1,16 @@
 package com.preparing;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Test1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//        int i = Integer.valueOf("db;ds;");
+        String[] strings= "db;ds;".split(";");
+
+        System.out.println(strings.length);
+
+
+//        System.out.println(i);
 
 
     }

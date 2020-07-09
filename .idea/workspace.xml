@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="装饰者模式">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/Solution226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode2/Solution33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/EnumOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/ExplicitStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/OrderOfInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/SimpleEnumUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/Spiciness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tt/chapter8/polymorphism/PolyConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer14_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer15ed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer50ed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer50rd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Solution17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/剑指offer/Test.java" afterDir="false" />
+    <list default="true" id="e489b6ca-9516-4bf6-a042-cfe44b1a3429" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luogu/P2142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/Solution14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/Solution37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/Solution9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/Solution974.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/Solution9743ed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/牛客网/Method17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/preparing/牛客网/Method18.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter11/hoding/AddingGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter11/hoding/AddingGroups.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter11/hoding/ListFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thinkinginjava/com/tt/chapter11/hoding/ListFeatures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Solution10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/CrossContainerIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/CrossContainerIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/剑指offer/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/Solution120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/Solution120.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/luogu/背包问题/P1060.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/luogu/背包问题/P1060.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/preparing/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/preparing/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指offer/Offer42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指offer/Offer42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/剑指offer/Solution66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/剑指offer/Solution66.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,52 +30,39 @@
       <FILTER>com.preparing.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddingGroups.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="37" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsListInference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/AsListInference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListFeatures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="55" selection-start-line="55" selection-end-line="60" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrossContainerIteration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/CrossContainerIteration.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution120.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shapes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/Shapes.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution120ed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -124,85 +97,77 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcodespecialtopic/dp/Solution70ed.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode2/Solution121.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1093.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/分治排序/DevideAndConquerSort.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1271.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1923.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/选择排序/ChooseSort.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1116.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1781.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P5727.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P1320.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/P5732.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/Solution3.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/Solution56.java" />
-        <option value="$PROJECT_DIR$/src/com/preparing/Method4.java" />
-        <option value="$PROJECT_DIR$/src/com/牛客网/Test1.java" />
-        <option value="$PROJECT_DIR$/src/com/牛客网/Test2.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Question46.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer11.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer13.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer343.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer14_1.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer14_2.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer191.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer15.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer15ed.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer50.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer50ed.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer50rd.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution17.java" />
-        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer18.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/House.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/ExplicitStatic.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/OrderOfInitialization.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution226.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/Solution10.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/Spiciness.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/SimpleEnumUse.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter5/EnumOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter8/polymorphism/PolyConstructors.java" />
-        <option value="$PROJECT_DIR$/src/com/thread/chapter1/TicketWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/thread/chapter1/TicketWindow2.java" />
-        <option value="$PROJECT_DIR$/src/com/thread/chapter1/TicketWindowRunnable.java" />
-        <option value="$PROJECT_DIR$/src/com/thread/chapter2/ThreadConstruction.java" />
-        <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java" />
         <option value="$PROJECT_DIR$/src/com/tt/chapter11/hoding/CrossContainerIteration.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer58.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution56.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution56_II.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer22.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer22ed.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer55_I.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer55_Ied.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer27.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer24.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer25.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution54.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer56_I.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer35.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer57_II.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer32_II.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer236.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer68_I.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer47.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer47ed.java" />
+        <option value="$PROJECT_DIR$/src/com/test/Excel.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer39.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer18.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer07.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer57.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer32_I.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer21.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer21ed.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer264.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer52.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer62.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer42.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution66.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Solution40.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer40.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer30.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer28.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer55.java" />
+        <option value="$PROJECT_DIR$/src/com/designpattern/singleton/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer53.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer53_I.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer45.java" />
+        <option value="$PROJECT_DIR$/src/com/剑指offer/Offer29.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/Solution120ed.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/Solution120.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="380" />
-    <option name="y" value="40" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="790" />
+    <option name="y" value="30" />
+    <option name="width" value="1115" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope" proportions="" version="1">
       <flattenPackages PackagesPane="false" />
       <showMembers PackagesPane="false" />
       <hideEmptyPackages PackagesPane="false" />
@@ -211,79 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="leetcode2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="leetcode2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="preparing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -330,14 +222,120 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="leetcode2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="string" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="thinkinginjava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="preparing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinkinginjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinkinginjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/designpattern/creational/factorymethod" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -363,27 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CrossContainerIteration">
-    <configuration name="AddingGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.AddingGroups" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="AsListInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.AsListInference" />
-      <module name="thinkinginjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.FirstUniqChar">
     <configuration name="CrossContainerIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.CrossContainerIteration" />
       <module name="thinkinginjava" />
@@ -393,51 +371,76 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tt.chapter11.hoding.ListFeatures" />
+    <configuration name="Excel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Excel" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tt.chapter11.hoding.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ThreadConstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.chapter2.ThreadConstruction" />
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.剑指offer.FirstUniqChar" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.chapter2.*" />
+          <option name="PATTERN" value="com.剑指offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TicketWindowRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.chapter1.TicketWindowRunnable" />
+    <configuration name="Offer56_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.剑指offer.Offer56_II" />
       <module name="thinkinginjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.chapter1.*" />
+          <option name="PATTERN" value="com.剑指offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer57_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.剑指offer.Offer57_II" />
+      <module name="thinkinginjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.剑指offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TicketWindowRunnable" />
-      <item itemvalue="Application.AddingGroups" />
-      <item itemvalue="Application.AsListInference" />
-      <item itemvalue="Application.ListFeatures" />
       <item itemvalue="Application.CrossContainerIteration" />
+      <item itemvalue="Application.Offer56_II" />
+      <item itemvalue="Application.Offer57_II" />
+      <item itemvalue="Application.Excel" />
+      <item itemvalue="Application.FirstUniqChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstUniqChar" />
+        <item itemvalue="Application.Excel" />
+        <item itemvalue="Application.Offer57_II" />
+        <item itemvalue="Application.Offer56_II" />
         <item itemvalue="Application.CrossContainerIteration" />
-        <item itemvalue="Application.ListFeatures" />
-        <item itemvalue="Application.AsListInference" />
-        <item itemvalue="Application.AddingGroups" />
-        <item itemvalue="Application.TicketWindowRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -506,237 +509,29 @@
       <workItem from="1592398280987" duration="4534000" />
       <workItem from="1592487098969" duration="1600000" />
       <workItem from="1592617388832" duration="5511000" />
-    </task>
-    <task id="LOCAL-00016" summary="921. 使括号有效的最少添加">
-      <created>1566478718969</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1566478718969</updated>
-    </task>
-    <task id="LOCAL-00017" summary="714. 买卖股票的最佳时机含手续费">
-      <created>1566484910557</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1566484910557</updated>
-    </task>
-    <task id="LOCAL-00018" summary="122. 买卖股票的最佳时机 II">
-      <created>1566485793765</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1566485793765</updated>
-    </task>
-    <task id="LOCAL-00019" summary="123. 买卖股票的最佳时机 III">
-      <created>1566522411552</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1566522411552</updated>
-    </task>
-    <task id="LOCAL-00020" summary="188. 买卖股票的最佳时机 IV">
-      <created>1566524818459</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1566524818459</updated>
-    </task>
-    <task id="LOCAL-00021" summary="买卖股票的最佳时机 IV">
-      <created>1566526401945</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1566526401945</updated>
-    </task>
-    <task id="LOCAL-00022" summary="309. 最佳买卖股票时机含冷冻期">
-      <created>1566527567788</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1566527567788</updated>
-    </task>
-    <task id="LOCAL-00023" summary="1029. 两地调度">
-      <created>1566531056083</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1566531056083</updated>
-    </task>
-    <task id="LOCAL-00024" summary="对二维数组中的一维数组进行升序排列">
-      <created>1566531106500</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1566531106500</updated>
-    </task>
-    <task id="LOCAL-00025" summary="1071. 字符串的最大公因子(gcd)">
-      <created>1566539254744</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1566539254744</updated>
-    </task>
-    <task id="LOCAL-00026" summary="1160. 拼写单词">
-      <created>1566542828755</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1566542828755</updated>
-    </task>
-    <task id="LOCAL-00027" summary="925. 长按键入">
-      <created>1566822503708</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1566822503708</updated>
-    </task>
-    <task id="LOCAL-00028" summary="简单工厂模式">
-      <created>1567350856942</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1567350856942</updated>
-    </task>
-    <task id="LOCAL-00029" summary="1221. 分割平衡字符串">
-      <created>1577088300494</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1577088300494</updated>
-    </task>
-    <task id="LOCAL-00030" summary="56. 合并区间">
-      <created>1577169712158</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1577169712158</updated>
-    </task>
-    <task id="LOCAL-00031" summary="238. 除自身以外数组的乘积">
-      <created>1577172682577</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1577172682577</updated>
-    </task>
-    <task id="LOCAL-00032" summary="观察者模式">
-      <created>1577241061867</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1577241061867</updated>
-    </task>
-    <task id="LOCAL-00033" summary="704. 二分查找">
-      <created>1577242821351</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1577242821351</updated>
-    </task>
-    <task id="LOCAL-00034" summary="374. 猜数字大小">
-      <created>1577249988503</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1577249988503</updated>
-    </task>
-    <task id="LOCAL-00035" summary="69. x 的平方根">
-      <created>1577250005883</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1577250005884</updated>
-    </task>
-    <task id="LOCAL-00036" summary="33. 搜索旋转排序数组">
-      <created>1577326374796</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1577326374796</updated>
-    </task>
-    <task id="LOCAL-00037" summary="162. 寻找峰值">
-      <created>1577328460560</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1577328460560</updated>
-    </task>
-    <task id="LOCAL-00038" summary="162. 寻找峰值（方法2）">
-      <created>1577328830233</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1577328830233</updated>
-    </task>
-    <task id="LOCAL-00039" summary="153. 寻找旋转排序数组中的最小值">
-      <created>1577330117106</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1577330117106</updated>
-    </task>
-    <task id="LOCAL-00040" summary="278. 第一个错误的版本">
-      <created>1577330332704</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1577330332704</updated>
-    </task>
-    <task id="LOCAL-00041" summary="34. 在排序数组中查找元素的第一个和最后一个位置">
-      <created>1577338871489</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1577338871489</updated>
-    </task>
-    <task id="LOCAL-00042" summary="50. Pow(x, n)">
-      <created>1577430522921</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1577430522921</updated>
-    </task>
-    <task id="LOCAL-00043" summary="367. 有效的完全平方数">
-      <created>1577433970794</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1577433970794</updated>
-    </task>
-    <task id="LOCAL-00044" summary="287. 寻找重复数">
-      <created>1577676117225</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1577676117225</updated>
-    </task>
-    <task id="LOCAL-00045" summary="二叉树先序遍历">
-      <created>1577690297240</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1577690297240</updated>
-    </task>
-    <task id="LOCAL-00046" summary="144. 二叉树的前序遍历">
-      <created>1577691237003</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1577691237003</updated>
-    </task>
-    <task id="LOCAL-00047" summary="94. 二叉树的中序遍历">
-      <created>1577691949740</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1577691949740</updated>
-    </task>
-    <task id="LOCAL-00048" summary="145. 二叉树的后序遍历">
-      <created>1577695947720</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1577695947720</updated>
+      <workItem from="1592872441205" duration="48000" />
+      <workItem from="1592906589374" duration="1450000" />
+      <workItem from="1592908111758" duration="1728000" />
+      <workItem from="1592958634417" duration="2488000" />
+      <workItem from="1592994634408" duration="3014000" />
+      <workItem from="1593304082189" duration="1687000" />
+      <workItem from="1593307869422" duration="1311000" />
+      <workItem from="1593317868955" duration="3240000" />
+      <workItem from="1593389944896" duration="4390000" />
+      <workItem from="1593419568760" duration="8373000" />
+      <workItem from="1593476559398" duration="14234000" />
+      <workItem from="1593563404414" duration="6475000" />
+      <workItem from="1593592403599" duration="3275000" />
+      <workItem from="1593677459375" duration="708000" />
+      <workItem from="1593680319603" duration="3307000" />
+      <workItem from="1593687149396" duration="8000" />
+      <workItem from="1593739109756" duration="9691000" />
+      <workItem from="1593763243883" duration="4704000" />
+      <workItem from="1594016957866" duration="6839000" />
+      <workItem from="1594102779448" duration="10000" />
+      <workItem from="1594104915364" duration="26000" />
+      <workItem from="1594191081713" duration="15000" />
+      <workItem from="1594286577163" duration="1042000" />
     </task>
     <task id="LOCAL-00049" summary="计算二叉树的最大深的两种方式">
       <created>1577769305487</created>
@@ -850,11 +645,242 @@
       <option name="project" value="LOCAL" />
       <updated>1592487495471</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="左旋转字符串">
+      <created>1592822083356</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1592822083357</updated>
+    </task>
+    <task id="LOCAL-00066" summary="数组中数字出现的次数 II">
+      <created>1592822099710</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1592822099710</updated>
+    </task>
+    <task id="LOCAL-00067" summary="链表中倒数第k个数">
+      <created>1592908155826</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1592908155826</updated>
+    </task>
+    <task id="LOCAL-00068" summary="二叉树的深度">
+      <created>1592909782360</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1592909782360</updated>
+    </task>
+    <task id="LOCAL-00069" summary="剑指 Offer 27. 二叉树的镜像">
+      <created>1592978252629</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1592978252629</updated>
+    </task>
+    <task id="LOCAL-00070" summary="剑指 Offer 24. 反转链表">
+      <created>1592978312117</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1592978312118</updated>
+    </task>
+    <task id="LOCAL-00071" summary="剑指 Offer 25. 合并两个排序的链表">
+      <created>1592995760858</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1592995760858</updated>
+    </task>
+    <task id="LOCAL-00072" summary="剑指 Offer 54. 二叉搜索树的第k大节点">
+      <created>1592998362569</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1592998362570</updated>
+    </task>
+    <task id="LOCAL-00073" summary="数组中数字出现的次数">
+      <created>1593319734833</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1593319734834</updated>
+    </task>
+    <task id="LOCAL-00074" summary="随机链表的复制">
+      <created>1593321862335</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1593321862335</updated>
+    </task>
+    <task id="LOCAL-00075" summary="从上到下打印二叉树 II">
+      <created>1593421472037</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1593421472038</updated>
+    </task>
+    <task id="LOCAL-00076" summary="最近公共节点">
+      <created>1593426058014</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1593426058014</updated>
+    </task>
+    <task id="LOCAL-00077" summary="二叉搜索树的最近公共节点">
+      <created>1593430657658</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1593430657658</updated>
+    </task>
+    <task id="LOCAL-00078" summary="剑指 Offer 47. 礼物的最大价值">
+      <created>1593431423473</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1593431423473</updated>
+    </task>
+    <task id="LOCAL-00079" summary="模仿excel输出字母">
+      <created>1593478450807</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1593478450807</updated>
+    </task>
+    <task id="LOCAL-00080" summary="剑指 Offer 39. 数组中出现次数超过一半的数字">
+      <created>1593498493657</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1593498493657</updated>
+    </task>
+    <task id="LOCAL-00081" summary="和为s的两个数字">
+      <created>1593507626510</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1593507626510</updated>
+    </task>
+    <task id="LOCAL-00082" summary="调整数组顺序使奇数位于偶数前面（快慢指针法）">
+      <created>1593510681837</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1593510681838</updated>
+    </task>
+    <task id="LOCAL-00083" summary="调整数组顺序使奇数位于偶数前面（双向指针法）">
+      <created>1593511927750</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1593511927750</updated>
+    </task>
+    <task id="LOCAL-00084" summary="剑指 Offer 52. 两个链表的第一个公共节点">
+      <created>1593514708013</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1593514708013</updated>
+    </task>
+    <task id="LOCAL-00085" summary="修改文件名称">
+      <created>1593514745532</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1593514745532</updated>
+    </task>
+    <task id="LOCAL-00086" summary="剑指 Offer 62. 圆圈中最后剩下的数字">
+      <created>1593568557698</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1593568557699</updated>
+    </task>
+    <task id="LOCAL-00087" summary="剑指 Offer 50. 第一个只出现一次的字符">
+      <created>1593597850346</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1593597850347</updated>
+    </task>
+    <task id="LOCAL-00088" summary="剑指 Offer 66. 构建乘积数组">
+      <created>1593686144260</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1593686144260</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Offer40 取前k个小的数">
+      <created>1593687059264</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1593687059264</updated>
+    </task>
+    <task id="LOCAL-00090" summary="剑指 Offer 40. 最小的k个数">
+      <created>1593751973430</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1593751973431</updated>
+    </task>
+    <task id="LOCAL-00091" summary="剑指 Offer 28. 对称的二叉树">
+      <created>1593755674052</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1593755674052</updated>
+    </task>
+    <task id="LOCAL-00092" summary="剑指 Offer 55 - II. 平衡二叉树">
+      <created>1593757659526</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1593757659526</updated>
+    </task>
+    <task id="LOCAL-00093" summary="剑指 Offer 53 - I. 在排序数组中查找数字 I">
+      <created>1593777041147</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1593777041147</updated>
+    </task>
+    <task id="LOCAL-00094" summary="包含min函数的栈">
+      <created>1593777088609</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1593777088610</updated>
+    </task>
+    <task id="LOCAL-00095" summary="剑指 Offer 46. 把数字翻译成字符串">
+      <created>1594018432312</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1594018432313</updated>
+    </task>
+    <task id="LOCAL-00096" summary="剑指 Offer 29. 顺时针打印矩阵">
+      <created>1594023419054</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1594023419054</updated>
+    </task>
+    <task id="LOCAL-00097" summary="120. 三角形最小路径和注释">
+      <created>1594286718433</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1594286718434</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348506000" />
+    <option name="totallyTimeSpent" value="428462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,72 +892,75 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.28186968" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49798927" weight="0.34127843" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3954496" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" weight="0.30877572" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34948096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27903682" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.296034" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966488" weight="0.4362606" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" visible="true" weight="0.30736545" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033512" side_tool="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.34948096" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="make" order="11" />
+      <window_info anchor="right" id="Word Book" order="12" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="13" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32577905" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" weight="0.28895184" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.23654391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32577905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.23654391" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798927" weight="0.28895184" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.296034" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,366 +991,428 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="278. 第一个错误的版本" />
-    <MESSAGE value="34. 在排序数组中查找元素的第一个和最后一个位置" />
-    <MESSAGE value="50. Pow(x, n)" />
-    <MESSAGE value="367. 有效的完全平方数" />
-    <MESSAGE value="287. 寻找重复数" />
-    <MESSAGE value="二叉树先序遍历" />
-    <MESSAGE value="144. 二叉树的前序遍历" />
-    <MESSAGE value="94. 二叉树的中序遍历" />
-    <MESSAGE value="145. 二叉树的后序遍历" />
-    <MESSAGE value="计算二叉树的最大深的两种方式" />
-    <MESSAGE value="101. 对称二叉树" />
-    <MESSAGE value="106. 从中序与后序遍历序列构造二叉树" />
-    <MESSAGE value="105. 从前序与中序遍历序列构造二叉树" />
-    <MESSAGE value="116. 填充每个节点的下一个右侧节点指针" />
-    <MESSAGE value="装饰者模式" />
-    <MESSAGE value="236. 二叉树的最近公共祖先" />
-    <MESSAGE value="test" />
-    <MESSAGE value="构造循环链表" />
-    <MESSAGE value="niuke" />
-    <MESSAGE value="练习" />
-    <MESSAGE value="13.机器人的运动范围" />
-    <MESSAGE value="面试题14- I. 剪绳子-动态规划" />
-    <MESSAGE value="10. 正则表达式匹配" />
-    <MESSAGE value="实现线程执行单元的两种方式" />
-    <MESSAGE value="Thread与ThreadGroup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread与ThreadGroup" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <MESSAGE value="数组中数字出现的次数" />
+    <MESSAGE value="随机链表的复制" />
+    <MESSAGE value="从上到下打印二叉树 II" />
+    <MESSAGE value="最近公共节点" />
+    <MESSAGE value="二叉搜索树的最近公共节点" />
+    <MESSAGE value="剑指 Offer 47. 礼物的最大价值" />
+    <MESSAGE value="模仿excel输出字母" />
+    <MESSAGE value="剑指 Offer 39. 数组中出现次数超过一半的数字" />
+    <MESSAGE value="和为s的两个数字" />
+    <MESSAGE value="调整数组顺序使奇数位于偶数前面（快慢指针法）" />
+    <MESSAGE value="调整数组顺序使奇数位于偶数前面（双向指针法）" />
+    <MESSAGE value="剑指 Offer 52. 两个链表的第一个公共节点" />
+    <MESSAGE value="修改文件名称" />
+    <MESSAGE value="剑指 Offer 62. 圆圈中最后剩下的数字" />
+    <MESSAGE value="剑指 Offer 50. 第一个只出现一次的字符" />
+    <MESSAGE value="剑指 Offer 66. 构建乘积数组" />
+    <MESSAGE value="Offer40 取前k个小的数" />
+    <MESSAGE value="剑指 Offer 40. 最小的k个数" />
+    <MESSAGE value="剑指 Offer 28. 对称的二叉树" />
+    <MESSAGE value="剑指 Offer 55 - II. 平衡二叉树" />
+    <MESSAGE value="剑指 Offer 53 - I. 在排序数组中查找数字 I" />
+    <MESSAGE value="包含min函数的栈" />
+    <MESSAGE value="剑指 Offer 46. 把数字翻译成字符串" />
+    <MESSAGE value="剑指 Offer 29. 顺时针打印矩阵" />
+    <MESSAGE value="120. 三角形最小路径和注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="120. 三角形最小路径和注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/preparing/P1319.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/preparing/P2615.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer24.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/preparing/排序/P1012.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sort/BubleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter7/reusing/Beetle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="522">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/preparing/Method4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer58.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/牛客网/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer56_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="36">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/牛客网/Test2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer54.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question10_1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question09.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question10_2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question06.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question07.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question46.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer56_I.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="297">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer15.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer35.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer57_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/ListNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Question05.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer32_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer11.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer68_I.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer14_1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer47.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="324">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer13.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="126">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer15ed.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer47ed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/Excel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50ed.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer39.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="252">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50rd.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Solution17.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer05.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer14_2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer10_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="126">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/ExplicitStatic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer07.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/Counter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer18.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/OrderOfInitialization.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer57.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/tree/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer32_I.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="11" />
+        <state relative-caret-position="396">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/TreeNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution108.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/JAVA/JDK/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer21ed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="1464" column="23" selection-start-line="1464" selection-start-column="15" selection-end-line="1464" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution226.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer264.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="396">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution10.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer52.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+        <state relative-caret-position="270">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/Spiciness.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer62.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="270">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/SimpleEnumUse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="234">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter5/EnumOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter8/polymorphism/PolyConstructors.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer42.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="324">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thread/chapter1/TicketWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Solution66.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thread/chapter1/TicketWindow2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Solution40.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="252">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thread/chapter1/TicketWindowRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer40.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thread/chapter2/ThreadConstruction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer28.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="198">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/AddingGroups.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50ed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/AsListInference.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer50rd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/ListFeatures.java">
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer55.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="55" selection-start-line="55" selection-end-line="60" selection-end-column="48" />
+        <state relative-caret-position="288">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter11/hoding/CrossContainerIteration.java">
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/singleton/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/designpattern/singleton/Singleton1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer53_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/preparing/牛客网/Method18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/剑指offer/Offer29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/preparing/排序/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution120.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tt/chapter14/typeinfo/Shapes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/Solution120ed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>

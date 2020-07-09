@@ -5,6 +5,9 @@ package com.剑指offer;
  */
 public class Solution66 {
     public int[] constructArr(int[] a) {
+        if(a.length==0){
+            return new int[0];
+        }
         //用一个数组保存乘积结果
         int length = a.length;
         int[] temp = new int[length];
