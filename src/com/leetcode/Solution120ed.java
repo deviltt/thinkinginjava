@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class Solution120ed {
     public int minimumTotal(List<List<Integer>> triangle) {
+        //加1的原因，在第一次循环的时候要执行dp[j+1]，如果不加一会越界
         int[] dp = new int[triangle.size()+1];
         for (int i = triangle.size() - 1; i >= 0; i--) {
             for (int j = 0; j <= i; j++) {
