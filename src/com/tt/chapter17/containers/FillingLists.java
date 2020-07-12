@@ -12,6 +12,7 @@ class StringAddress{
 
     @Override
     public String toString() {
+        //super.toString();在这里调用的是Object的toString()
         return super.toString() + " " + s;
     }
 }
