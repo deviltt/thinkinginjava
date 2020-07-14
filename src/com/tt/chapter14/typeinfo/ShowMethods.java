@@ -16,6 +16,10 @@ public class ShowMethods {
                     "To show all methods in class or:\n" +
                     "ShowMethods qualified.class.name word\n" +
                     "To search for methods involving 'word'";
+
+    //意思是把 java.lang.Object. 给去掉
+    //public native int java.lang.Object.hashCode()
+    //public native int hashCode()
     private static Pattern p = Pattern.compile("\\w+\\.");
 
     public static void main(String[] args) {
@@ -27,10 +31,12 @@ public class ShowMethods {
         try {
             System.out.println(args[0]);
             Class<?> c = Class.forName(args[0]);
-            Method[] methods = c.getDeclaredMethods();
+            Method[] methods = c.getMethods();
             Constructor[] constructors = c.getConstructors();
             if (args.length == 1) {
                 for (Method method : methods) {
+//                    System.out.println(method.getName());
+                    System.out.println(method.toString());
                     System.out.println(p.matcher(method.toString()).replaceAll(""));
                 }
                 for (Constructor constructor : constructors) {
