@@ -1,5 +1,8 @@
-package com.tt.chapter14.typeinfo.pets;
+package com.tt.chapter14.typeinfo;
 
+import com.tt.chapter14.typeinfo.pets.LiteralPetCreator;
+import com.tt.chapter14.typeinfo.pets.Pet;
+import com.tt.chapter14.typeinfo.pets.Pets;
 import com.tt.net.mindview.util.MapData;
 
 import java.util.LinkedHashMap;

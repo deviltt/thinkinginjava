@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Literal : 字面意义上的
+ */
 public class LiteralPetCreator extends PetCreator {
     public static final List<Class<? extends  Pet>> allTypes =
             Collections.unmodifiableList(Arrays.asList(Pet.class, Dog.class, Cat.class, Rodent.class, Mutt.class,

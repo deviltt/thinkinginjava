@@ -1,4 +1,6 @@
-package com.tt.chapter14.typeinfo.pets;
+package com.tt.chapter14.typeinfo;
+
+import com.tt.chapter14.typeinfo.pets.*;
 
 import java.util.HashMap;
 
@@ -12,8 +14,13 @@ public class PetCount {
                 put(type, quantity + 1);
         }
     }
+
+    /**
+     * 传参为任何继承了PetCreator的类
+     * @param petCreator 面向接口编程
+     */
     public static void countPets(PetCreator petCreator){
-        PetCounter petCounter = new PetCounter();
+        PetCounter petCounter = new PetCounter();   //继承了HashMap，用来计数
         for(Pet pet : petCreator.createArray(20)){
             System.out.print(pet.getClass().getSimpleName() + " ");
             if(pet instanceof Pet)

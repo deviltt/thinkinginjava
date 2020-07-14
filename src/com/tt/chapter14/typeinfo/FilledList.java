@@ -22,9 +22,16 @@ class CountedInteger{
 }
 public class FilledList<T> {
     private Class<T> type;
+    //创建FilledList对象的时候指定Class对象的具体类型
     public FilledList(Class<T> type){
         this.type = type;
     }
+
+    /**
+     * 使用newInstance()的方法创建nElement个CountedInteger对象
+     * @param nElement
+     * @return
+     */
     public List<T> create(int nElement){
         List<T> list = new ArrayList<T>();
         for (int i = 0; i < nElement; i++) {
@@ -39,6 +46,7 @@ public class FilledList<T> {
         return list;
     }
     public static void main(String[] args) {
+        //调用有参构造器，那么f1中的type具体类型为CountedInteger
         FilledList<CountedInteger> f1 = new FilledList<>(CountedInteger.class);
         System.out.println(f1.create(15));
     }
