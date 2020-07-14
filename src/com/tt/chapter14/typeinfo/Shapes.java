@@ -4,8 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 
 abstract class Shape{
+    //抽象类可以有非抽象方法，如果子类没有重写这个方法，就继承这个方法
     void draw(){
-        System.out.println(this + ".draw()");
+        System.out.println(this + ".draw()");   //会调用当前对象的toString()方法
     }
     abstract public String toString();  //强制子类必须实现toString();方法
 }
