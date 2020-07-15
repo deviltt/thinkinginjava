@@ -8,7 +8,7 @@ import java.lang.reflect.Proxy;
  * java动态代理必须实现InvocationHandler接口
  */
 class DynamicProxyHandler implements InvocationHandler{
-    private Object proxied;
+    private Object proxied; //被代理的对象
 
     public DynamicProxyHandler(Object proxied) {
         this.proxied = proxied;
