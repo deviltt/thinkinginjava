@@ -26,13 +26,13 @@ public class ModifyingPrivateFields {
         f.setInt(pf, 47);
         System.out.println(pf);
 
-        f = pf.getClass().getDeclaredField("s");
+        f = pf.getClass().getDeclaredField("s");  //获取声明的名称为 s 的域
         f.setAccessible(true);
         System.out.println("f.get(pf): " + f.get(pf));
         f.set(pf, "No, you're not!");
         System.out.println(pf);
 
-        f=pf.getClass().getDeclaredField("s2");
+        f=pf.getClass().getDeclaredField("s2");  //获取声明的名称为 s2 的域
         f.setAccessible(true);
         System.out.println("f.get(pf): " + f.get(pf));
         f.set(pf, "No, you're not!");

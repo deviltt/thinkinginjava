@@ -1,12 +1,14 @@
 package com.tt.chapter10.innerclasses;
 
 public class Parcel2 {
+    //内部类1
     class Contents{
         private int i = 11;
         public int value(){
             return i;
         }
     }
+    //内部类2
     class Destination{
         private String label;
         Destination(String whereTo){
@@ -17,10 +19,19 @@ public class Parcel2 {
         }
     }
 
+    /**
+     * 创建内部类对象
+     * @param s 参数
+     * @return 返回内部类对象
+     */
     public Destination to(String s){
         return new Destination(s);
     }
 
+    /**
+     * 创建内部类对象
+     * @return 返回内部类对象
+     */
     public Contents contents(){
         return new Contents();
     }
