@@ -1,5 +1,7 @@
 package com.tt.chapter10.innerclasses;
 
+import java.util.Collections;
+
 public class Parcel10 {
     public Destination destination(final String dest, final float price){
         return new Destination() {  //实现了Destination接口的匿名内部类

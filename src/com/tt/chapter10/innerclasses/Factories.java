@@ -54,13 +54,13 @@ public class Factories {
      * 方法功能：调用不同service的method1、method2方法
      * @param factory
      */
-    public static void ServiceConsumer(ServiceFactory factory){
+    public static void serviceConsumer(ServiceFactory factory){
         Service s = factory.getService();
         s.method1();
         s.method2();
     }
     public static void main(String[] args) {
-        ServiceConsumer(Implementation1.factory);
-        ServiceConsumer(Implementation2.factory);
+        serviceConsumer(Implementation1.factory);
+        serviceConsumer(Implementation2.factory);
     }
 }
