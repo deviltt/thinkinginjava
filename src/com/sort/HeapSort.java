@@ -29,6 +29,12 @@ public class HeapSort {
         }
     }
 
+    /**
+     * 堆排序的核心方法，维持最大(小)堆的性质
+     * @param arr 源数组
+     * @param i i表示需要维持最大堆的顶点坐标
+     * @param len len的主要作用就是用来判断左右子树是否会越界
+     */
     private static void heapify(int[] arr, int i, int len) {
         int left = 2 * i + 1;
         int right = 2 * i + 2;
