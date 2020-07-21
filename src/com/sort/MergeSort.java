@@ -2,6 +2,7 @@ package com.sort;
 
 public class MergeSort {
     public static void mergeSort(int[] arr){
+        //temp数组的目的就是用来保存合并的数
         int[] temp = new int[arr.length];
         sort(arr, 0, arr.length - 1, temp);
     }
@@ -19,6 +20,8 @@ public class MergeSort {
 
     private static void merge(int[] arr, int low, int mid, int high, int[] temp) {
         //1.先借用temp的数组空间将arr指定边界的元素进行合并
+        //为什么要用i、j来临时保存low和high，是因为要操作arr，如果把low和high覆盖了
+        //那么操作arr就是错误的
         int i = low, j = mid + 1, t = 0;
         while (i <= mid && j <= high){
             if (arr[i] < arr[j])
