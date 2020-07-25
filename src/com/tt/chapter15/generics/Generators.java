@@ -12,6 +12,16 @@ import java.util.Collection;
  * 使用实现了Generator接口的类中的next方法来填充一个Collection集合
  */
 public class Generators {
+    /**
+     * generator的原理
+     * CoffeeGenerator类里面已经定义好了不同coffee的class对象，
+     * 然后调用next方法，根据随机数创建随机的coffee对象
+     * @param collection
+     * @param generator
+     * @param n
+     * @param <T>
+     * @return
+     */
     public static <T> Collection<T> fill(Collection<T> collection, Generator<T> generator, int n) {
         for (int i = 0; i < n; i++) {
             collection.add(generator.next());
