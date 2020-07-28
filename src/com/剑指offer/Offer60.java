@@ -3,7 +3,7 @@ package com.剑指offer;
 /**
  * 剑指 Offer 60. n个骰子的点数
  * 1.表示状态 dp[i][j] 投掷第i枚骰子，点数和为j的次数
- * 2.状态转移方程
+ * 2.状态转移方程 dp[i][j] += dp[i-1][j-k]    (j-k>0, k=1,2,3,4,5,6)
  * 3.边界处理
  */
 public class Offer60 {
