@@ -1,9 +1,7 @@
 package com.java8InAction.chap6;
 
 import javax.swing.text.html.Option;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 import static com.java8InAction.chap6.Dish.menu;
 import static java.util.Comparator.comparingInt;
@@ -25,7 +23,7 @@ public class Grouping {
         System.out.println("Most caloric dishes by type: " + mostCaloricDishesByType());
         System.out.println("Most caloric dishes by type: " + mostCaloricDishesByTypeWithoutOprionals());
         System.out.println("Sum calories by type: " + sumCaloriesByType());
-//        System.out.println("Caloric levels by type: " + caloricLevelsByType());
+        System.out.println("Caloric levels by type: " + caloricLevelsByType());
     }
 
     //直接按照类型分组
@@ -79,5 +77,19 @@ public class Grouping {
     private static Map<Dish.Type, Integer> sumCaloriesByType() {
         return menu.stream().collect(groupingBy(Dish::getType,
                 summingInt(Dish::getCalories)));
+    }
+
+    private static Map<Dish.Type, Set<CaloricLevel>> caloricLevelsByType() {
+        return menu.stream().collect(
+                groupingBy(Dish::getType, mapping(dish -> {
+                    if (dish.getCalories() <= 400) {
+                        return CaloricLevel.DIET;
+                    } else if (dish.getCalories() <= 700) {
+                        return CaloricLevel.NORMAL;
+                    } else {
+                        return CaloricLevel.FAT;
+                    }
+                }, toCollection(HashSet::new)))
+        );
     }
 }
