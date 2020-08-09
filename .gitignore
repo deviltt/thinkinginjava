@@ -26,6 +26,7 @@ build
 #generated files
 bin/
 gen/
+out/
 
 #Eclipse Project Files
 .classpath
