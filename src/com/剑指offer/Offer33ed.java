@@ -16,9 +16,7 @@ public class Offer33ed {
         Stack<Integer> stack = new Stack<>();
         int rootVal = Integer.MAX_VALUE;
         for (int i = postorder.length - 1; i >= 0; i--) {
-            if (postorder[i] > rootVal) {
-                return false;
-            }
+
             //当遇到第一个递减节点时，表示要开始遍历左子树了，
             // 找出这个节点的最近根节点，相当于把最近根节点的右枝给剪掉
             while (!stack.isEmpty() && stack.peek() > postorder[i]) {
