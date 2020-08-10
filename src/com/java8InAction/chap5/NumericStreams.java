@@ -17,6 +17,7 @@ public class NumericStreams {
 
         Arrays.stream(numbers.toArray()).forEach(System.out::println);
 
+        //map()的返回值不能直接调用sum()，是因为设计者考虑到了装箱、拆箱操作影响性能的诟病
         int calories =
                 menu.stream()
                         .mapToInt(Dish::getCalories)
@@ -28,12 +29,13 @@ public class NumericStreams {
                         .mapToInt(Dish::getCalories)
                         .max();
 
-//        if (maxCalories.isPresent()) {
-//            max = maxCalories.getAsInt();
-//        } else {
-//            max = 1;
-//        }
-        int max = maxCalories.orElse(1);    //等价于这句
+        int max;
+        if (maxCalories.isPresent()) {
+            max = maxCalories.getAsInt();
+        } else {
+            max = 1;
+        }
+//        int max = maxCalories.orElse(1);    //等价于这句
         System.out.println(max);
 
         //数值范围
