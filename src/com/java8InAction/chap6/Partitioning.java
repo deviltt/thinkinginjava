@@ -20,6 +20,7 @@ public class Partitioning {
         return menu.stream().collect(partitioningBy(Dish::isVegetarian));
     }
 
+    //先分区，再对各个区按照种类进行分组
     private static Map<Boolean, Map<Dish.Type, List<Dish>>> vegetarianDishesByType() {
         return menu.stream().collect(partitioningBy(Dish::isVegetarian,
                 groupingBy(Dish::getType)

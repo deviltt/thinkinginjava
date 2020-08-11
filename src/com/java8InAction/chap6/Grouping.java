@@ -1,8 +1,8 @@
 package com.java8InAction.chap6;
 
-import javax.swing.text.html.Option;
 import java.util.*;
 
+import static com.java8InAction.chap6.Dish.dishTags;
 import static com.java8InAction.chap6.Dish.menu;
 import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.*;
@@ -14,9 +14,9 @@ public class Grouping {
 
     public static void main(String[] args) {
         System.out.println("Dishes grouped by type: " + groupDishesByType());
-//        System.out.println("Dish names grouped by type: " + groupDishNamesByType());
-//        System.out.println("Dish tags grouped by type: " + groupDishTagsByType());
-//        System.out.println("Caloric dishes grouped by type: " + groupCaloricDishesByType());
+        System.out.println("Dish names grouped by type: " + groupDishNamesByType());
+        System.out.println("Dish tags grouped by type: " + groupDishTagsByType());
+        System.out.println("Caloric dishes grouped by type: " + groupCaloricDishesByType());
         System.out.println("Dishes grouped by caloric level: " + groupDishesByCaloricLevel());
         System.out.println("Dishes grouped by type and caloric level: " + groupDishedByTypeAndCaloricLevel());
         System.out.println("Count dishes in groups: " + countDishesInGroups());
@@ -29,6 +29,26 @@ public class Grouping {
     //直接按照类型分组
     private static Map<Dish.Type, List<Dish>> groupDishesByType() {
         return menu.stream().collect(groupingBy(Dish::getType));
+    }
+
+    /**
+     * 根据类型进行分组，并对分组结果进行映射
+     *
+     * @return
+     */
+    private static Map<Dish.Type, List<String>> groupDishNamesByType() {
+        return menu.stream().collect(groupingBy(Dish::getType, mapping(Dish::getName, toList())));
+    }
+
+    private static Map<Dish.Type, Set<List<String>>> groupDishTagsByType() {
+//        return menu.stream().collect(groupingBy(Dish::getType,flatMapping(dish->dishTags.get())))
+//        return menu.stream().collect(groupingBy(Dish::getType, flatMapping(dish -> dishTags.get( dish.getName() ).stream(), toSet())));
+        return menu.stream().collect(groupingBy(Dish::getType, mapping(dish -> dishTags.get(dish.getName()), toSet())));
+    }
+
+    private static Map<Dish.Type, List<Dish>> groupCaloricDishesByType() {
+//        return menu.stream().collect(groupingBy(Dish::getType, filtering(dish -> dish.getCalories() > 500, toList())));
+        return menu.stream().filter(dish -> dish.getCalories() > 500).collect(groupingBy(Dish::getType));
     }
 
     private static Map<CaloricLevel, List<Dish>> groupDishesByCaloricLevel() {
