@@ -4,7 +4,7 @@ package com.剑指offer;
  * 面试题14- I. 剪绳子
  * 动态规划的核心是记录之前的计算结果，下次直接使用
  */
-public class Offer14_1 {
+public class Offer14_I {
     public int integerBreak(int n) {
         //dp[i]表示保存整数i拆分成至少两个正整数之和的最大成绩
         int[] dp = new int[n + 1];

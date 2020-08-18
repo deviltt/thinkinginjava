@@ -1,6 +1,6 @@
 package com.剑指offer;
 
-public class Offer10_2 {
+public class Offer10_II {
     public int numWays(int n) {
         if (n == 0) {
             return 1;

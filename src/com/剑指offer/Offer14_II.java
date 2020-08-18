@@ -2,7 +2,7 @@ package com.剑指offer;
 
 import java.math.BigInteger;
 
-public class Offer14_2 {
+public class Offer14_II {
     public static int cuttingRope(int n) {
         if (n < 2) {
             return 1;

@@ -1,6 +1,6 @@
 package com.剑指offer;
 
-public class Offer10_1 {
+public class Offer10_I {
     public int fib(int n) {
         if (n == 0) {
             return 0;
