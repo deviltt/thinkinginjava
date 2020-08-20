@@ -5,6 +5,7 @@ package com.剑指offer;
  * 逻辑是对的，但是会超时
  * 时间复杂度分析：每m个数删除一个，一共有n个数
  * 因此时间复杂度 是 O(mn)
+ * 超时错误
  */
 public class Offer62 {
     public int lastRemaining(int n, int m) {
