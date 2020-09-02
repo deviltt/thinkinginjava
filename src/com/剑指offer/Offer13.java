@@ -9,7 +9,8 @@ public class Offer13 {
 
     public int movingCount(int m, int n, int k) {
         this.marked = new boolean[m][n];
-        this.direction = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+//        this.direction = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        this.direction = new int[][]{{1, 0}, {0, 1}};
         this.count = 0;
         this.rows = m;
         this.cols = n;
@@ -19,17 +20,17 @@ public class Offer13 {
     }
 
     private void dfs(int m, int n, int k) {
-        if (m == rows - 1 && n == cols - 1) {
-            if (sum(m) + sum(n) <= k) {
-                marked[m][n] = true;
-                ++count;
-                return;
-            }
-        }
+//        if (m == rows - 1 && n == cols - 1) {
+//            if (sum(m) + sum(n) <= k) {
+//                marked[m][n] = true;
+//                ++count;
+//                return;
+//            }
+//        }
         if (sum(m) + sum(n) <= k) {
             ++count;
             marked[m][n] = true;
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0; i < 2; i++) {
                 int newRow = m + direction[i][0];
                 int newCol = n + direction[i][1];
                 if (isNotOutOfBound(newRow, newCol) && !marked[newRow][newCol]) {
