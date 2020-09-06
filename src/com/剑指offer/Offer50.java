@@ -1,16 +1,31 @@
 package com.剑指offer;
 
+import java.util.HashMap;
+
+/**
+ * 剑指 Offer 50. 第一个只出现一次的字符
+ */
 public class Offer50 {
-    public double myPow(double x, int n) {
-        boolean flag = n < 0;
-        int tempN = Math.abs(n);
-        double multiple = 1;
-        for (int i = 0; i < tempN; i++) {
-            multiple *= x;
+    public char firstUniqChar(String s) {
+        if (s.length() == 0) {
+            return ' ';
         }
-        if (flag) {
-            return 1 / multiple;
+        HashMap<Character, Boolean> map=new HashMap<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            char temp=s.charAt(i);
+            if (!map.containsKey(temp)){
+                map.put(temp, true);
+            }else{
+                map.put(temp, false);
+            }
         }
-        return multiple;
+        for (int i = 0; i < s.length(); i++) {
+            char temp=s.charAt(i);
+            if (map.get(temp)){
+                return temp;
+            }
+        }
+        return ' ';
     }
 }
