@@ -3,6 +3,8 @@ package com.剑指offer;
 /**
  * 面试题14- I. 剪绳子
  * 动态规划的核心是记录之前的计算结果，下次直接使用
+ * dp[i]表示当长度为i时，各段绳子长度乘积的最大值
+ *
  */
 public class Offer14_I {
     public int integerBreak(int n) {
@@ -15,7 +17,7 @@ public class Offer14_I {
                 /**
                  * 分三种情况，取其中的一个最大值
                  * dp[i]表示维持原状
-                 * j * (i-j) 表示在位置j处剪一刀，右边也不剪了
+                 * j * (i-j) 表示在位置j处剪一刀，右边也不剪了(表示在位置j处只减一刀)
                  * j * dp[i-j] 表示在位置j处剪一刀，右边继续剪
                  *
                  * 为什么没有 dp[j] * dp[i-j] 表示 在位置j处剪一刀，然后左右继续剪

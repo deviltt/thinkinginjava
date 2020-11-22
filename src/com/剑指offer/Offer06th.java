@@ -3,7 +3,7 @@ package com.剑指offer;
 /**
  * 反向填充数组
  */
-public class Offer06Forth {
+public class Offer06th {
     public int[] reversePrint(ListNode head) {
         if (head == null) {
             return new int[0];
