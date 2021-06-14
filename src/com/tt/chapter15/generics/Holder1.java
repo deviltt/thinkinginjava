@@ -4,6 +4,9 @@ class Automobile {
 
 }
 
+/**
+ * Holder1 这个类只能持有 AutoMobile 这一个类型
+ */
 public class Holder1 {
     private Automobile a;
 

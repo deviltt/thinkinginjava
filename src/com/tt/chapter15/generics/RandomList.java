@@ -18,6 +18,7 @@ public class RandomList<T> {
     }
 
     public static void main(String[] args) {
+        // 这里就指定了可以返回 String 类型的对象
         RandomList<String> randomList=new RandomList<>();
         for(String s:"I like watching TV and comic".split(" ")){
             randomList.add(s);
